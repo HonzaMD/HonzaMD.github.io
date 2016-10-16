@@ -24,59 +24,29 @@
 				<div id="nav2">
 					<div class="navcontainer">
 						<ul>
-							<?php
-							$lv=1;
-							$shlv=1;
-							$endli=0;
-							foreach($navvars as $pg => $values){
-								$curlv=$values[N_LEVEL];
-								if($shlv>=$curlv && $curlv>0)
-								{
-									if ( $pg == $aktnav[$curlv] ){
-										$shlv = $curlv + 1;
-									} else {
-										$shlv = $curlv;
-									}								  
-									if($curlv>$lv){
-										echo '<div class="navcontainer2"><ul>';
-										$lv=$curlv;
-									}else{
-										while($curlv<$lv){
-											echo '</li></ul></div>';
-											$lv--;
-										}
-										if($endli){
-											echo '</li>';                        
-										}
-									}
-									$endli=1;
-									if($values[N_NAME]=='-')
-									{
-										echo ' <li class="navbreak">';
-									}else{
-										echo " <li>";
-										echo '<a href="';
-										if ($values[N_LINK])
-										{
-											echo $values[N_LINK];
-										}else{
-											echo $pg;	
-										}
-										echo '"';
-										if ($pg == $aktnav[$curlv]){
-											if($curlv==$lev||$curlv==1)
-												echo ' class="active"';
-										}
-										echo '>'.$values[N_NAME].'</a>';
-									}
-								}
-							}
-							while($lv>1){									
-								echo '</li></ul></div>';
-								$lv--;
-							}
-							if($endli) echo '</li>';						
-							?>
+              <li>
+                <a href="/bla">bla</a>
+              </li>
+              <li>
+                <a href="/bla2">bla2</a>
+              </li>
+              <li>
+                <a href="/bla2" class="active">bla2</a>
+              </li>
+              <div class="navcontainer2">
+                <ul>
+                  <li>
+                    <a href="/bla2">bla2</a>
+                  </li>
+                  <li>
+                    <a href="/bla2" class="active">bla2</a>
+                  </li>
+                </ul>
+              </div>
+              <li class="navbreak"></li>
+              <li>
+                <a href="/bla2">bla2</a>
+              </li>
 						</ul>
 					</div>
 					<div id="langselect">
