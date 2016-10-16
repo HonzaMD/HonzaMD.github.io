@@ -1,1 +1,5 @@
 _site/
+obj/
+bin/
+
+PagesProj.v12.suo
