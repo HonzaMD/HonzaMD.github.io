@@ -53,7 +53,7 @@ body
 {
 	margin: 10px;
 	background-color:#F1E7DD;
-	background-image: url(img/bg.gif);
+	background-image: url(/img/bg.gif);
 	background-repeat: repeat-y;
 	border: 3px solid #000;
 }
@@ -61,7 +61,7 @@ body
 #top		
 {
 	height:121px;
-	background-image: url(img/logospacer.png);
+	background-image: url(/img/logospacer.png);
 	background-color:#9B8C9B;
 	border-bottom: 3px solid #000;
 }		
@@ -72,7 +72,7 @@ body
 	width:627px;
 	height:121px;
 
-	background-image: url(img/krkal.jpg);
+	background-image: url(/img/krkal.jpg);
 }
 
 #logo2
@@ -87,7 +87,7 @@ body
 	right: 10px;
 
 	font-size: 10px;
-	background-image: url(img/krkalorg.gif);
+	background-image: url(/img/krkalorg.gif);
 }
 
 
@@ -186,7 +186,7 @@ img {border:0}
 	padding-left:10px;
 	margin: 3px 0 2px 0; 
  	list-style-type:none ;
-	background: transparent url(img/submenu.gif) no-repeat 0 3px;
+	background: transparent url(/img/submenu.gif) no-repeat 0 3px;
 }
 
 .navbreak {
@@ -258,7 +258,7 @@ font-weight:bold;
 }
 
 li.download {
-	list-style-image:url(img/download.png);
+	list-style-image:url(/img/download.png);
 	list-style-position:inside;
 	margin:4px;
 }

@@ -106,7 +106,7 @@ img {border:0}
 }
 
 li.download {
-	list-style-image:url(img/download.png);
+	list-style-image:url(/img/download.png);
 	list-style-position:inside;
 	margin:4px;
 }

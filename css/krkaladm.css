@@ -54,7 +54,7 @@ body
 #top		
 {
 	height:121px;
-	background-image: url(img/logospacer.png);
+	background-image: url(/img/logospacer.png);
 	background-color:#9B8C9B;
 	border-bottom: 3px solid #000;
 }		
@@ -65,7 +65,7 @@ body
 	width:627px;
 	height:121px;
 
-	background-image: url(img/krkal.jpg);
+	background-image: url(/img/krkal.jpg);
 }
 
 #logo2
@@ -80,7 +80,7 @@ body
 	right: 10px;
 
 	font-size: 10px;
-	background-image: url(img/krkalorg.gif);
+	background-image: url(/img/krkalorg.gif);
 }
 
 
