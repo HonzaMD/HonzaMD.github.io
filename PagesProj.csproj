@@ -36,6 +36,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="404.html" />
+    <Content Include="controls.html" />
     <Content Include="cs\controls.html" />
     <Content Include="index.html" />
     <Content Include="menu.html" />
