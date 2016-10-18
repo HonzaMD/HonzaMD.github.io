@@ -119,6 +119,19 @@ div[id] #content
 {
 	height:auto;
 }
+
+
+#errcontent
+{
+	margin: 10px;
+	
+	min-height:400px;
+	height:400px;
+}
+div[id] #errcontent
+{
+	height:auto;
+}
 		
 #footer
 {
@@ -270,3 +283,8 @@ li.none {
 tr.gameName {background-color:#9B8C9B; font-weight:bold;}
 tr.gameDesc {background-color:#E1D7CD; text-align:justify;}
 .vecinav{text-align:center;}
+
+.msg{
+	margin-top:30px;
+	margin-bottom:30px;
+}

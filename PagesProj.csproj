@@ -36,15 +36,39 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="404.html" />
-    <Content Include="cs\controls.html" />
+    <Content Include="css\krkal.css" />
+    <Content Include="css\krkaladm.css" />
+    <Content Include="css\krkalerr.css" />
+    <Content Include="css\krkalprint.css" />
+    <Content Include="cs\download.html" />
+    <Content Include="cs\index.html" />
+    <Content Include="cs\k2controls.html" />
+    <Content Include="cs\k2objects.html" />
+    <Content Include="cs\k2screenshots.html" />
+    <Content Include="cs\k2verHistory.html" />
+    <Content Include="cs\krkal1.html" />
+    <Content Include="cs\krkal2.html" />
+    <Content Include="cs\krkal3.html" />
+    <Content Include="cs\news.html" />
+    <Content Include="cs\team.html" />
+    <Content Include="en\download.html" />
+    <Content Include="en\index.html" />
+    <Content Include="en\k2controls.html" />
+    <Content Include="en\k2objects.html" />
+    <Content Include="en\k2screenshots.html" />
+    <Content Include="en\k2verHistory.html" />
+    <Content Include="en\krkal1.html" />
+    <Content Include="en\krkal2.html" />
+    <Content Include="en\krkal3.html" />
+    <Content Include="en\news.html" />
+    <Content Include="en\team.html" />
     <Content Include="index.html" />
     <Content Include="menu.html" />
     <Content Include="_layouts\default.html" />
     <Content Include="_layouts\maincs.html" />
+    <Content Include="_layouts\mainen.html" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="en\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Reference Include="System" />
   </ItemGroup>
