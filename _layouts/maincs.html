@@ -6,6 +6,22 @@ layout: default
 		<div class="navcontainer">
 			<ul>
 				<li><a href="/cs/">Index</a></li>
+				<li><a href="/cs/download.html">Stáhnout</a></li>
+
+			{% if page.submenu == 'download' %}
+			</ul>
+			<div class="navcontainer2">
+				<ul>
+					<li><a href="/cs/k2verHistory.html">Historie změn</a></li>
+				</ul>
+			</div>
+			<ul>
+			{% endif %}
+
+				<li><a href="/cs/news.html">Novinky</a></li>
+
+				<li class="navbreak"></li>
+				<li><a href="/cs/krkal1.html">Krkal 1</a></li>
 				<li><a href="/cs/krkal2.html">Krkal 2</a></li>
 		
 			{% if page.submenu == 'krkal2' %}
@@ -20,22 +36,9 @@ layout: default
 			<ul>
 			{% endif %}
 		
-				<li><a href="/cs/download.html">Stáhnout</a></li>
-		
-			{% if page.submenu == 'download' %}
-			</ul>
-			<div class="navcontainer2">
-				<ul>
-					<li><a href="/cs/k2verHistory.html">Historie změn</a></li>
-				</ul>
-			</div>
-			<ul>
-			{% endif %}
-		
-				<li><a href="/cs/news.html">Novinky</a></li>
-				<li class="navbreak"></li>
-				<li><a href="/cs/krkal1.html">Krkal 1</a></li>
 				<li><a href="/cs/krkal3.html">Krkal 3</a></li>
+
+				<li class="navbreak"></li>
 				<li><a href="/cs/team.html">KRKALteam</a></li>
 			</ul>
 		</div>
