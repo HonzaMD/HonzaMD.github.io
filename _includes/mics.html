@@ -1,3 +1,3 @@
 ﻿<li>
-  <a {% if page.name == include.id %}class="active"{%endif%} href="/cs/{{include.id}}">{{include.name}}</a>
+  <a {% if pn == include.id %}class="active"{%endif%} href="/cs/{% if include.id != '' %}{{include.id}}.html{% endif %}">{{include.name}}</a>
 </li>
