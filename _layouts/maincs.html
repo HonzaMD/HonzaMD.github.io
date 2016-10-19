@@ -6,40 +6,40 @@ layout: default
 		<div class="navcontainer">
 			<ul>
 			    {% include mics.html id='' name='Index' pn=page.name %}
-				{% include mics.html id='download' name='Stáhnout' pn=page.name %}
+				{% include mics.html id='download.html' name='Stáhnout' pn=page.name %}
 
 			{% if page.submenu == 'download' %}
 			</ul>
 			<div class="navcontainer2">
 				<ul>
-     				{% include mics.html id='k2verHistory' name='Historie změn' pn=page.name %}
+     				{% include mics.html id='k2verHistory.html' name='Historie změn' pn=page.name %}
 				</ul>
 			</div>
 			<ul>
 			{% endif %}
 
-  				{% include mics.html id='news' name='Novinky' pn=page.name %}
+  				{% include mics.html id='news.html' name='Novinky' pn=page.name %}
 
 				<li class="navbreak"></li>
-  				{% include mics.html id='krkal1' name='Krkal 1' pn=page.name %}
-  				{% include mics.html id='krkal2' name='Krkal 2' pn=page.name %}
+  				{% include mics.html id='krkal1.html' name='Krkal 1' pn=page.name %}
+  				{% include mics.html id='krkal2.html' name='Krkal 2' pn=page.name %}
 		
 			{% if page.submenu == 'krkal2' %}
 			</ul>
 			<div class="navcontainer2">
 				<ul>
-     				{% include mics.html id='k2screenshots' name='Screenshoty' pn=page.name %}
-     				{% include mics.html id='k2objects' name='Herní objekty' pn=page.name %}
-     				{% include mics.html id='k2controls' name='Ovládání' pn=page.name %}
+     				{% include mics.html id='k2screenshots.html' name='Screenshoty' pn=page.name %}
+     				{% include mics.html id='k2objects.html' name='Herní objekty' pn=page.name %}
+     				{% include mics.html id='k2controls.html' name='Ovládání' pn=page.name %}
 				</ul>
 			</div>
 			<ul>
 			{% endif %}
 		
-  				{% include mics.html id='krkal3' name='Krkal 3' pn=page.name %}
+  				{% include mics.html id='krkal3.html' name='Krkal 3' pn=page.name %}
 
 				<li class="navbreak"></li>
-  				{% include mics.html id='team' name='KRKALteam' pn=page.name %}
+  				{% include mics.html id='team.html' name='KRKALteam' pn=page.name %}
 			</ul>
 		</div>
 		<div id="langselect">
