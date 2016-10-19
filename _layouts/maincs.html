@@ -5,41 +5,41 @@ layout: default
 	<div id="nav2">
 		<div class="navcontainer">
 			<ul>
-				<li><a href="/cs/">Index</a></li>
-				<li><a href="/cs/download.html">Stáhnout</a></li>
+			    {% include mics.html id='' name='Index' %}
+				{% include mics.html id='download' name='Stáhnout' %}
 
 			{% if page.submenu == 'download' %}
 			</ul>
 			<div class="navcontainer2">
 				<ul>
-					<li><a href="/cs/k2verHistory.html">Historie změn</a></li>
+     				{% include mics.html id='k2verHistory' name='Historie změn' %}
 				</ul>
 			</div>
 			<ul>
 			{% endif %}
 
-				<li><a href="/cs/news.html">Novinky</a></li>
+  				{% include mics.html id='news' name='Novinky' %}
 
 				<li class="navbreak"></li>
-				<li><a href="/cs/krkal1.html">Krkal 1</a></li>
-				<li><a href="/cs/krkal2.html">Krkal 2</a></li>
+  				{% include mics.html id='krkal1' name='Krkal 1' %}
+  				{% include mics.html id='krkal2' name='Krkal 2' %}
 		
 			{% if page.submenu == 'krkal2' %}
 			</ul>
 			<div class="navcontainer2">
 				<ul>
-					<li><a href="/cs/k2screenshots.html">Screenshoty</a></li>
-					<li><a href="/cs/k2objects.html">Herní objekty</a></li>
-					<li><a href="/cs/k2controls.html">Ovládání</a></li>
+     				{% include mics.html id='k2screenshots' name='Screenshoty' %}
+     				{% include mics.html id='k2objects' name='Herní objekty' %}
+     				{% include mics.html id='k2controls' name='Ovládání' %}
 				</ul>
 			</div>
 			<ul>
 			{% endif %}
 		
-				<li><a href="/cs/krkal3.html">Krkal 3</a></li>
+  				{% include mics.html id='krkal3' name='Krkal 3' %}
 
 				<li class="navbreak"></li>
-				<li><a href="/cs/team.html">KRKALteam</a></li>
+  				{% include mics.html id='team' name='KRKALteam' %}
 			</ul>
 		</div>
 		<div id="langselect">
