@@ -121,17 +121,6 @@ div[id] #content
 }
 
 
-#errcontent
-{
-	margin: 10px;
-	
-	min-height:400px;
-	height:400px;
-}
-div[id] #errcontent
-{
-	height:auto;
-}
 		
 #footer
 {
@@ -199,7 +188,6 @@ img {border:0}
 	padding-left:10px;
 	margin: 3px 0 2px 0; 
  	list-style-type:none ;
-	background: transparent url(/img/submenu.gif) no-repeat 0 3px;
 }
 
 .navbreak {
