@@ -5,41 +5,41 @@ layout: default
 	<div id="nav2">
 		<div class="navcontainer">
 			<ul>
-				<li><a href="/en/">Index</a></li>
-				<li><a href="/en/download.html">Download</a></li>
+			    {% include mien.html id='index.html' name='Index' pn=page.name %}
+				{% include mien.html id='download.html' name='Download' pn=page.name %}
 		
 			{% if page.submenu == 'download' %}
 			</ul>
 			<div class="navcontainer2">
 				<ul>
-					<li><a href="/en/k2verHistory.html">Version History</a></li>
+     				{% include mien.html id='k2verHistory.html' name='Version History' pn=page.name %}
 				</ul>
 			</div>
 			<ul>
 			{% endif %}
 		
-				<li><a href="/en/news.html">News</a></li>
+  				{% include mien.html id='news.html' name='News' pn=page.name %}
 
 				<li class="navbreak"></li>
-				<li><a href="/en/krkal1.html">Krkal 1</a></li>
-				<li><a href="/en/krkal2.html">Krkal 2</a></li>
+  				{% include mien.html id='krkal1.html' name='Krkal 1' pn=page.name %}
+  				{% include mien.html id='krkal2.html' name='Krkal 2' pn=page.name %}
 		
 			{% if page.submenu == 'krkal2' %}
 			</ul>
 			<div class="navcontainer2">
 				<ul>
-					<li><a href="/en/k2screenshots.html">Screenshots</a></li>
-					<li><a href="/en/k2objects.html">Game Objekts</a></li>
-					<li><a href="/en/k2controls.html">Controls</a></li>
+     				{% include mien.html id='k2screenshots.html' name='Screenshots' pn=page.name %}
+     				{% include mien.html id='k2objects.html' name='Game Objekts' pn=page.name %}
+     				{% include mien.html id='k2controls.html' name='Controls' pn=page.name %}
 				</ul>
 			</div>
 			<ul>
 			{% endif %}
 		
-				<li><a href="/en/krkal3.html">Krkal 3</a></li>
+  				{% include mien.html id='krkal3.html' name='Krkal 3' pn=page.name %}
 
 				<li class="navbreak"></li>
-				<li><a href="/en/team.html">KRKALteam</a></li>
+  				{% include mien.html id='team.html' name='KRKALteam' pn=page.name %}
 			</ul>
 		</div>
 		<div id="langselect">

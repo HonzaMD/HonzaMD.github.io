@@ -64,6 +64,7 @@
     <Content Include="en\team.html" />
     <Content Include="index.html" />
     <Content Include="menu.html" />
+    <Content Include="_includes\mien.html" />
     <Content Include="_includes\mics.html" />
     <Content Include="_layouts\default.html" />
     <Content Include="_layouts\maincs.html" />
