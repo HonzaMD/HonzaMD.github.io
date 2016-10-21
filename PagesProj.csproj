@@ -46,11 +46,11 @@
     <Content Include="cs\k2objects.html" />
     <Content Include="cs\k2screenshots.html" />
     <Content Include="cs\k2verHistory.html" />
-    <Content Include="cs\krkal1.html" />
-    <Content Include="cs\krkal2.html" />
-    <Content Include="cs\krkal3.html" />
+    <None Include="cs\krkal1.md" />
+    <None Include="cs\krkal2.md" />
+    <None Include="cs\krkal3.md" />
     <Content Include="cs\news.html" />
-    <Content Include="cs\team.html" />
+    <None Include="cs\team.md" />
     <Content Include="en\download.html" />
     <Content Include="en\index.html" />
     <Content Include="en\k2controls.html" />
