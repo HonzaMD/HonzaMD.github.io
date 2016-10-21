@@ -4,7 +4,7 @@ title: KRKAL 2
 lang: cs
 submenu: krkal2
 ---
-#Krkal 2
+# Krkal 2
 
 Krkal je logicko-akční hra. Hráč v ní ovládá postavičku, kterou vidí shora. 
 Hra je rozdělena na několik samostatných úrovní (levelů). Úkolem v každém levelu 

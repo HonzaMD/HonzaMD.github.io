@@ -4,13 +4,13 @@ title: KRKAL Team
 lang: cs
 ---
 
-##Support, kontakt:
+## Support, kontakt:
 support@krkal.org
 
 Na náš email nám můžete posílat náměty, levely, žádosti o rady, 
 připomínky, hlášení chyb, ...
 
-##AUTOŘI
+## AUTOŘI
 
 ####  Jan Krček (MD) md@krkal.org
 verze 2.5 a 3.0, kernel, skriptování, vlastní hra KRKAL, levely, ... 

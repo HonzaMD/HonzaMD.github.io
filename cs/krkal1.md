@@ -3,7 +3,7 @@ layout: maincs
 title: KRKAL 1
 lang: cs
 ---
-#Krkal 1
+# Krkal 1
 
 Krkal 1.0 je logicko-akční top-down hra pro DOS, kde si vyzkoušíte ovládání
 jedné ze tří postaviček, pomůžete jí vyřešit všechny nástrahy a dostat
