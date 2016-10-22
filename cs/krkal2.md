@@ -40,3 +40,5 @@ Hra Krkal 2 byla vytvořena ve stejnojmenném herním enginu v roce
 Univerzity Karlovy a byl dále vyvíjen jako diplomová práce tamtéž.
 Původní Krkal 1 je z roku 1997 a tato verze 2.5 vzniká k 20tiletému 
 výročí hry Krkal - 2017.
+
+[Zdrojové kódy na GitHubu](https://github.com/HonzaMD/Krkal2)

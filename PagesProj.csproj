@@ -40,7 +40,7 @@
     <Content Include="css\krkaladm.css" />
     <Content Include="css\krkalerr.css" />
     <Content Include="css\krkalprint.css" />
-    <Content Include="cs\download.html" />
+    <None Include="cs\download.md" />
     <Content Include="cs\index.html" />
     <None Include="cs\k2controls.md" />
     <Content Include="cs\k2objects.html" />

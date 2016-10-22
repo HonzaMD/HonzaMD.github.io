@@ -19,3 +19,6 @@ Varování: Hra je v pozdějších levelech obtížná!
    
 Hra Krkal 1 byla vytvořena v letech 1996 až 1997. Novější verze (2.4) 
 vznikla v roce 2004 a k 20tiletému výročí chystáme znovu-vydání obou her.
+
+[Stáhnout Krkala 1](/dl/Krkal1.zip)  
+[Zdrojové kódy na GitHubu](https://github.com/HonzaMD/Krkal1)
