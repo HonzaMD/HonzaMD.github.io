@@ -5,6 +5,7 @@ lang: cs
 ---
 # Krkal 1
 
+<img src="\img\galerie\img\Krka1FL.jpg" style="float:right"/>
 Krkal 1.0 je logicko-akční top-down hra pro DOS, kde si vyzkoušíte ovládání
 jedné ze tří postaviček, pomůžete jí vyřešit všechny nástrahy a dostat
 se do exitu. Hra je založena právě na těch nástrahách (herních
