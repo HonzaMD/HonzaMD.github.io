@@ -13,7 +13,7 @@ submenu: krkal2
 
 {% capture mod %}{{ forloop.index0 | modulo:4 }}{% endcapture %}
 <td>mod{{ mod }}</td>
-{% if mod == 0 %}
+{% if mod == 1 %}
 <tr class="thumb">
 {% assign trOpen = 1 %}
 {% endif %}
