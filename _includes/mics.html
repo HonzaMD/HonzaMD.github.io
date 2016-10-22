@@ -1,4 +1,4 @@
 <li>
   {% capture pn2 %}{{include.pn | replace: ".md" ".html"}}{% endcapture %}
-  <a {% if pn2 == include.id %}class="active"{%endif%} href="/cs/{{include.id}}">{{include.name}}</a>
+  <a {% if pn2 == include.id %}class="active"{%endif%} href="/cs/{{include.id}}">{{include.name}} {{pn2}}</a>
 </li>
