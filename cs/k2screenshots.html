@@ -5,3 +5,34 @@ lang: cs
 submenu: krkal2
 ---
 <h1>Screenshoty</h1>
+
+
+<table cellspacing="2" cellpadding="4" border="0" class="center">
+
+{% for member in site.data.k2screenshots %}
+
+{% capture mod %}{{forloop.index0 | modulo:4 }}{% endcapture %}
+{% if mod == 0 %}
+<tr class="thumb">
+{% assign trOpen = 1 %}
+{% endif %}
+
+		<td>			 
+		    <a href="/img/galerie/img/{{member.name}}" class="im">
+		    <img src="/img/galerie/thumb/{{member.thumb}}" alt="{{member.cs}}" />
+			</a>
+		</td>
+
+{% if mod == 3 %}
+</tr>
+{% assign trOpen = 0 %}
+{% endif %}
+
+{% endfor %}
+
+{% trOpen == 1 %}
+</tr>
+{% endif %}
+
+</table>
+

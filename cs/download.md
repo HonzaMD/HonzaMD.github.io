@@ -6,10 +6,10 @@ submenu: download
 ---
 # Freeware Licence
 
-* Program Krkal 2.5 je volně ke stažení, můžete program dál bezplatně šířit. 
+* Program Krkal (všechny verze) je volně ke stažení, můžete program dál bezplatně šířit. 
 * Je možné program používat, modifikovat v něm vytvářené hry, tvořit nové levely. 
 * Program používáte na vaše vlastní nebezpečí. Nepřebíráme zodpovědnost za jakékoli škody vzniklé v souvislosti s používáním programu. 
-* Bez našeho svolení není možné použít Systém Krkal jako součást nějakého komerčně prodávaného produktu. 
+* Bez našeho svolení není možné použít Krkala jako součást nějakého komerčně prodávaného produktu. 
 * Veškerá další autorská práva vyhrazena (c) 2017
 
 # Krkal 2
