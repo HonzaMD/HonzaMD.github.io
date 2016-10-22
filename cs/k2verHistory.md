@@ -25,7 +25,9 @@ submenu: download
 * Ve fullscreenu použití 32bit barevné hloubky.
 * Bugfixing.
 * Plus další drobná vylepšení.
+
 # Novinky ve verzi 2.4
+
 * 5 nových levelů.
 * Kernel umí ukládat a nahrávat hru, udělán SavePoint.
 * Přibyly nové objekty do hry Krkal: SavePoint, Ledová Koule, Teleport2 (umí teleportovat všechny pohyblivé objekty).
