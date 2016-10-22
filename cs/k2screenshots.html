@@ -17,11 +17,10 @@ submenu: krkal2
 		{% for colPos in (0..3) %}
 
 			{% capture pos %}{{ rowPos | times:4 | plus:colPos}}{% endcapture %}
-			{% if pos < site.data.k2screenshots.size %}
 			<td>
 				{{pos}}
+				{{site.data.k2screenshots.size}}
             </td>
-			{% endif %}
 
 		{% endfor %}
 		
