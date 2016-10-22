@@ -7,6 +7,7 @@ submenu: krkal2
 <h1>Screenshoty</h1>
 
 {% capture numrows %}{{site.data.k2screenshots.size | minus:1 | divided_by:4 }}{% endcapture %}
+{{numrows}}
 
 <table cellspacing="2" cellpadding="4" border="0" class="center">
 
@@ -17,7 +18,7 @@ submenu: krkal2
 		{% for colPos in 0..3 %}
 
 			{% capture pos %}{{ rowPos | times:4 | plus:colPos}}{% endcapture %}
-			<td>pos</td>
+			<td>{{pos}}</td>
 			{% if pos < site.data.k2screenshots.size %}
 				<td>			 
 					<a href="/img/galerie/img/{{site.data.k2screenshots[pos].name}}" class="im">
