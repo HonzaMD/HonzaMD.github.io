@@ -7,19 +7,28 @@ submenu: krkal2
 <h1>Screenshoty</h1>
 
 {% capture numrows %}{{site.data.k2screenshots.size | minus:1 | divided_by:4 }}{% endcapture %}
-{{numrows}}
 
-  {% for rowPos in (0..numrows) %}
+<table cellspacing="2" cellpadding="4" border="0" class="center">
 
-		<p>Start
+    {% for rowPos in (0..numrows) %}
+
+		<tr class="thumb">
 
 		{% for colPos in (0..3) %}
 
 			{% capture pos %}{{ rowPos | times:4 | plus:colPos}}{% endcapture %}
-			{{pos}}
+			{% if pos < site.data.k2screenshots.size %}
+			<td>
+				{{pos}}
+            </td>
+			{% endif %}
 
 		{% endfor %}
 		
-		End</p>
+		</tr>
 
 	{% endfor %}
+
+</table>
+
+<h1>Screenshoty</h1>
