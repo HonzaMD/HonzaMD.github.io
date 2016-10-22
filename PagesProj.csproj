@@ -42,10 +42,10 @@
     <Content Include="css\krkalprint.css" />
     <Content Include="cs\download.html" />
     <Content Include="cs\index.html" />
-    <Content Include="cs\k2controls.html" />
+    <None Include="cs\k2controls.md" />
     <Content Include="cs\k2objects.html" />
     <Content Include="cs\k2screenshots.html" />
-    <Content Include="cs\k2verHistory.html" />
+    <None Include="cs\k2verHistory.md" />
     <None Include="cs\krkal1.md" />
     <None Include="cs\krkal2.md" />
     <None Include="cs\krkal3.md" />

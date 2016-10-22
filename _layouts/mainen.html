@@ -1,45 +1,46 @@
 ---
 layout: default
 ---
+{% capture pn2 %}{{page.name | replace: ".md", ".html"}}{% endcapture %}
 <div id="nav">
 	<div id="nav2">
 		<div class="navcontainer">
 			<ul>
-			    {% include mien.html id='index.html' name='Index' pn=page.name %}
-				{% include mien.html id='download.html' name='Download' pn=page.name %}
+			    {% include mien.html id='index.html' name='Index' pn=pn2 %}
+				{% include mien.html id='download.html' name='Download' pn=pn2 %}
 		
 			{% if page.submenu == 'download' %}
 			</ul>
 			<div class="navcontainer2">
 				<ul>
-     				{% include mien.html id='k2verHistory.html' name='Version History' pn=page.name %}
+     				{% include mien.html id='k2verHistory.html' name='Version History' pn=pn2 %}
 				</ul>
 			</div>
 			<ul>
 			{% endif %}
 		
-  				{% include mien.html id='news.html' name='News' pn=page.name %}
+  				{% include mien.html id='news.html' name='News' pn=pn2 %}
 
 				<li class="navbreak"></li>
-  				{% include mien.html id='krkal1.html' name='Krkal 1' pn=page.name %}
-  				{% include mien.html id='krkal2.html' name='Krkal 2' pn=page.name %}
+  				{% include mien.html id='krkal1.html' name='Krkal 1' pn=pn2 %}
+  				{% include mien.html id='krkal2.html' name='Krkal 2' pn=pn2 %}
 		
 			{% if page.submenu == 'krkal2' %}
 			</ul>
 			<div class="navcontainer2">
 				<ul>
-     				{% include mien.html id='k2screenshots.html' name='Screenshots' pn=page.name %}
-     				{% include mien.html id='k2objects.html' name='Game Objekts' pn=page.name %}
-     				{% include mien.html id='k2controls.html' name='Controls' pn=page.name %}
+     				{% include mien.html id='k2screenshots.html' name='Screenshots' pn=pn2 %}
+     				{% include mien.html id='k2objects.html' name='Game Objekts' pn=pn2 %}
+     				{% include mien.html id='k2controls.html' name='Controls' pn=pn2 %}
 				</ul>
 			</div>
 			<ul>
 			{% endif %}
 		
-  				{% include mien.html id='krkal3.html' name='Krkal 3' pn=page.name %}
+  				{% include mien.html id='krkal3.html' name='Krkal 3' pn=pn2 %}
 
 				<li class="navbreak"></li>
-  				{% include mien.html id='team.html' name='KRKALteam' pn=page.name %}
+  				{% include mien.html id='team.html' name='KRKALteam' pn=pn2 %}
 			</ul>
 		</div>
 		<div id="langselect">

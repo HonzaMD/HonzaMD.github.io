@@ -12,6 +12,7 @@ je projít „bludištěm“, vyřešit přitom všechny nástrahy a dostat se d
 Hlavní myšlenka je tedy jednoduchá, její realizace se ovšem v některých 
 (téměř ve všech pokročilých) levelech stává peklem.
 
+<img src="/img/manik.png" width="200" height="200" alt="Dráček" style="float:right"/>
 Inspirací při tvorbě Krkala byly hry jako Robbo, Boulderdash (Supaplex), či Sokoban, 
 ale Krkal si nakonec našel vlastní cestu. Tou je především ohromné množství různých 
 "věcí" či "předmětů" nebo také stavebních prvků, ze kterých se nakonec poskládá level. 

@@ -8,7 +8,7 @@ lang: cs
 support@krkal.org
 
 Na náš email nám můžete posílat náměty, levely, žádosti o rady, 
-připomínky, hlášení chyb, ...
+připomínky, hlášení chyb, ... Děkujeme :)
 
 ## AUTOŘI
 
