@@ -23,32 +23,3 @@ submenu: krkal2
 		End</p>
 
 	{% endfor %}
-
-	<h1>Screenshoty</h1>
-
-<table cellspacing="2" cellpadding="4" border="0" class="center">
-
-	{% for rowPos in (0..numrows) %}
-
-		<tr class="thumb">
-
-		{% for colPos in (0..3) %}
-
-			{% capture pos %}{{ rowPos | times:4 | plus:colPos}}{% endcapture %}
-			<td>{{pos}}</td>
-			{% if pos < site.data.k2screenshots.size %}
-				<td>			 
-					<a href="/img/galerie/img/{{site.data.k2screenshots[pos].name}}" class="im">
-					<img src="/img/galerie/thumb/{{site.data.k2screenshots[pos].thumb}}" alt="{{site.data.k2screenshots[pos].cs}}" />
-					</a>
-				</td>
-			{% endif %}
-
-		{% endfor %}
-		
-		</tr>
-
-	{% endfor %}
-
-</table>
-
