@@ -16,7 +16,7 @@ submenu: krkal2
 
 		{% for colPos in (0..3) %}
 
-			{% capture pos %}{{ rowPos | times:4 | plus:colPos}}{% endcapture %}
+			{% assign pos == rowPos | times:4 | plus:colPos %}
 			<td>
 					<a href="/img/galerie/img/{{site.data.k2screenshots[pos].name}}" class="im">
 					<img src="/img/galerie/thumb/{{site.data.k2screenshots[pos].thumb}}" alt="{{site.data.k2screenshots[pos].cs}}" />
