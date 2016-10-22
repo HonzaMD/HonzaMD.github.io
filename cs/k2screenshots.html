@@ -11,11 +11,11 @@ submenu: krkal2
 
 <table cellspacing="2" cellpadding="4" border="0" class="center">
 
-	{% for rowPos in 0..numrows %}
+	{% for rowPos in (0..numrows) %}
 
 		<tr class="thumb">
 
-		{% for colPos in 0..3 %}
+		{% for colPos in (0..3) %}
 
 			{% capture pos %}{{ rowPos | times:4 | plus:colPos}}{% endcapture %}
 			<td>{{pos}}</td>
