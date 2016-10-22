@@ -1,45 +1,46 @@
 ---
 layout: default
 ---
+{% capture pn2 %}{{page.name | replace: ".md" ".html"}}{% endcapture %}
 <div id="nav">
 	<div id="nav2">
 		<div class="navcontainer">
 			<ul>
-			    {% include mics.html id='index.html' name='Index' pn=page.name %}
-				{% include mics.html id='download.html' name='Stáhnout' pn=page.name %}
+			    {% include mics.html id='index.html' name='Index' pn=pn2 %}
+				{% include mics.html id='download.html' name='Stáhnout' pn=pn2 %}
 
 			{% if page.submenu == 'download' %}
 			</ul>
 			<div class="navcontainer2">
 				<ul>
-     				{% include mics.html id='k2verHistory.html' name='Historie změn' pn=page.name %}
+     				{% include mics.html id='k2verHistory.html' name='Historie změn' pn=pn2 %}
 				</ul>
 			</div>
 			<ul>
 			{% endif %}
 
-  				{% include mics.html id='news.html' name='Novinky' pn=page.name %}
+  				{% include mics.html id='news.html' name='Novinky' pn=pn2 %}
 
 				<li class="navbreak"></li>
-  				{% include mics.html id='krkal1.html' name='Krkal 1' pn=page.name %}
-  				{% include mics.html id='krkal2.html' name='Krkal 2' pn=page.name %}
+  				{% include mics.html id='krkal1.html' name='Krkal 1' pn=pn2 %}
+  				{% include mics.html id='krkal2.html' name='Krkal 2' pn=pn2 %}
 		
 			{% if page.submenu == 'krkal2' %}
 			</ul>
 			<div class="navcontainer2">
 				<ul>
-     				{% include mics.html id='k2screenshots.html' name='Screenshoty' pn=page.name %}
-     				{% include mics.html id='k2objects.html' name='Herní objekty' pn=page.name %}
-     				{% include mics.html id='k2controls.html' name='Ovládání' pn=page.name %}
+     				{% include mics.html id='k2screenshots.html' name='Screenshoty' pn=pn2 %}
+     				{% include mics.html id='k2objects.html' name='Herní objekty' pn=pn2 %}
+     				{% include mics.html id='k2controls.html' name='Ovládání' pn=pn2 %}
 				</ul>
 			</div>
 			<ul>
 			{% endif %}
 		
-  				{% include mics.html id='krkal3.html' name='Krkal 3' pn=page.name %}
+  				{% include mics.html id='krkal3.html' name='Krkal 3' pn=pn2 %}
 
 				<li class="navbreak"></li>
-  				{% include mics.html id='team.html' name='KRKALteam' pn=page.name %}
+  				{% include mics.html id='team.html' name='KRKALteam' pn=pn2 %}
 			</ul>
 		</div>
 		<div id="langselect">
