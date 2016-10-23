@@ -14,7 +14,7 @@ V Krkalovi najdete například klasické klíče a zámky, dopravní pásy,
 led, výbušniny, příšery, přepínače, lasery směrované zrcadly, magnety
 a spoustu dalšího. Díky tomu mohou vznikat velmi rozmanité levely.
 
-Now is this version playable under [DOSBoxem](http://www.dosbox.com/).
+Now is this version playable under [DOSBox](http://www.dosbox.com/).
    
 Varování: Hra je v pozdějších levelech obtížná!
    
