@@ -8,15 +8,6 @@ lang: cs
 
 {% for member in site.data.newscs %}
 
-   <div class="news">
-	   <span class="news-ln1">
-		 <span class="news-date">{{member.date}}</span>
-		 <span class="news-head">{{member.head}}</span>
-	   </span> <br />
-	   <div class="news-msg">{{member.msg}}</div>
-	   <div class="news-autor">
-		<a href="/cs/team.html">{{member.author}}</a>
-	   </div>
-   </div>
+	{% include newscs.html msg=member %}
 
 {% endfor %}
