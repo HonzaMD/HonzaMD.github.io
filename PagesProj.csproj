@@ -65,7 +65,7 @@
     <Content Include="index.html" />
     <Content Include="menu.html" />
     <Content Include="_includes\newsen.html" />
-    <Content Include="_includes\newscz.html" />
+    <Content Include="_includes\newscs.html" />
     <Content Include="_includes\mien.html" />
     <Content Include="_includes\mics.html" />
     <Content Include="_layouts\default.html" />
