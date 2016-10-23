@@ -8,7 +8,7 @@ submenu: krkal2
 
 {% capture numrows %}{{site.data.k2screenshots.size | minus:1 | divided_by:4 }}{% endcapture %}
 
-<table cellspacing="2" cellpadding="4" border="0" class="center">
+<table class="center" style="border-spacing:2;border-width:0;">
 
     {% for rowPos in (0..numrows) %}
 
@@ -18,9 +18,9 @@ submenu: krkal2
 
 			{% assign pos = rowPos | times:4 | plus:colPos %}
 			{% if pos < site.data.k2screenshots.size %}
-			<td>
-					<a href="/img/galerie/img/{{site.data.k2screenshots[pos].name}}" class="im">
-					<img src="/img/galerie/thumb/{{site.data.k2screenshots[pos].thumb}}" alt="{{site.data.k2screenshots[pos].cs}}" />
+			<td style="padding:4;">
+					<a href="/img/galerie/img/{{site.data.k2screenshots[pos].name | uri_escape}}" class="im">
+					<img src="/img/galerie/thumb/{{site.data.k2screenshots[pos].thumb | uri_escape}}" alt="{{site.data.k2screenshots[pos].cs}}" />
 					</a>
             </td>
 			{% endif %}
@@ -35,7 +35,7 @@ submenu: krkal2
 
 			{% assign pos = rowPos | times:4 | plus:colPos %}
 			{% if pos < site.data.k2screenshots.size %}
-			<td>
+			<td style="padding:4;">
 				<div class="center">{{site.data.k2screenshots[pos].cs}}</div>
             </td>
 			{% endif %}
