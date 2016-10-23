@@ -4,4 +4,46 @@ title: KRKAL Screenshots
 lang: en
 submenu: krkal2
 ---
-<h1>KRKAL Screenshots EN</h1>
+<h1>Screenshots</h1>
+
+{% capture numrows %}{{site.data.k2screenshots.size | minus:1 | divided_by:4 }}{% endcapture %}
+
+<table class="center" style="border-spacing:2px;border-width:0px;">
+
+    {% for rowPos in (0..numrows) %}
+
+		<tr class="thumb">
+
+		{% for colPos in (0..3) %}
+
+			{% assign pos = rowPos | times:4 | plus:colPos %}
+			{% if pos < site.data.k2screenshots.size %}
+			<td style="padding:4px;">
+					<a href="/img/galerie/img/{{site.data.k2screenshots[pos].name | uri_escape}}" class="im">
+					<img src="/img/galerie/thumb/{{site.data.k2screenshots[pos].thumb | uri_escape}}" alt="{{site.data.k2screenshots[pos].en}}" />
+					</a>
+            </td>
+			{% endif %}
+
+		{% endfor %}
+		
+		</tr>
+
+		<tr class="thumblabel">
+
+		{% for colPos in (0..3) %}
+
+			{% assign pos = rowPos | times:4 | plus:colPos %}
+			{% if pos < site.data.k2screenshots.size %}
+			<td style="padding:4px;">
+				<div class="center">{{site.data.k2screenshots[pos].en}}</div>
+            </td>
+			{% endif %}
+
+		{% endfor %}
+		
+		</tr>
+
+	{% endfor %}
+
+</table>
