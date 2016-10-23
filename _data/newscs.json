@@ -1,0 +1,69 @@
+[
+	{
+		date: "23.10.2016",
+		head: "Chystéme novou verzi 2.5",
+		msg: "Ke dvacátému výročí chystáme znovuvydání hry Krkal 2!<br/>Chceme dotáhnout hru do úspěšného konce. Máme odemykání levelů, máme příběh, nové levely a desítky detailů dotažených do funkčního celku. Verze 2.5 si nehraje na herní engine, ale na funkční hotovou hru. Nebo spíše remasterovanou edici klasik z roku 1997 a 2004.",
+		author: "M.D."
+	},
+	{
+		date: "23.6.2004",
+		head: "KRKAL v angličtině",
+		msg: "Stránky krkal.org jsou nyní k dispozici v angličtině. Pokračujeme v překladu Systému KRKAL...",
+		author: "pal"
+	},
+	{
+		date: "12.6.2004",
+		head: "Nová verze KRKALa",
+		msg: "Připravili jsme pro Vás novou verzi KRKALa (v2.4). Hlavní novinkou je savepoint, pomocí kterého si můžete uložit slibně rozehraný level, takže v případě neúspěchu nemusíte hrát celý level znovu. Udělali jsme několik nových levelů - myslím, že jsou velmi pěkné a že se s nimi pěknou chvíli zabavíte...",
+		author: "pal"
+	},
+	{
+		date: "11.5.2004",
+		head: "Dali nás na DVD..",
+		msg: "Krkal se objevil na DVD časopisu <b>Level</b> (č.113) a na kompilaci <b>Doupě DVD</b> 04/04",
+		author: "M.D."
+	},
+	{
+		date: "4.5.2004",
+		head: "Nová verze KRKALa",
+		msg: "<b>Konečně si můžete stáhnout novou verzi KRKALa (2.3)</b>, nestihli jsme to sice v dubnu, jak jsme slibovali, ale o to je lepší! Udělali jsme několik nových levelů, pár nových herních objektů, hra nyní běží podstatně rychleji,...",
+		author: "pal"
+	},
+	{
+		date: "27.4.2004",
+		head: "KRKAL na titulní straně",
+		msg: "Časopis <b>Computer</b> (8/04) uveřejnil Systém Krkal. Velká písmena 'NEJLEPŠÍ PLNÉ HRY: logická hra Krkal ...' z obalu jejich cédéčka přímo svítí. Máme v&nbsp;časopise i malinkou recenzi a popularita nás velmi těší. Na druhou stranu časopis porušil všechny zásady slušného chování, pořádně si nezjistil, kdo jsou autoři, uveřejnil Krkala bez našeho souhlasu (a vědomí) a proti podmínkám v licenci!",
+		author: "MD+pal"
+	},
+	{
+		date: "1.4.2004",
+		head: "Další recenze KRKALa",
+		msg: "Další recenzi KRKALa najdete na <a href='http://plnehry.idnes.cz/logicke/krkal.html'>plnehry.idnes.cz</a>.",
+		author: "pal"
+	},
+	{
+		date: "24.3.2004",
+		head: "Recenze KRKALa",
+		msg: "Na herních serverech <a href='http://www.freehry.cz/index.php?id=hra&amp;gid=1295'>freehry.cz</a> a <a href='http://www.hernisvet.cz/index.php?page=hry_free&amp;page2=zobrazit&amp;id_hry=0000000397'>hernisvet.cz</a> si můžete přečíst recenze KRKALa, na stránce hernisvet.cz najdete i <a href='http://www.hernisvet.cz/okno.php?page=novinka&amp;id=00005'>rozhovor o KRKALovi</a>. Z těchto serverů si můžete i KRKALa stáhnout.",
+		author: "pal"
+	},
+	{
+		date: "12.3.2004",
+		head: "KRKAL verze 2.2 (demo)",
+		msg: "Na stránce je demo KRKALa volně ke stažení.",
+		author: "pal"
+	},
+	{
+		date: "7.2.2004",
+		head: "Doména krkal.org",
+		msg: "Založili jsme doménu krkal.org.",
+		author: "pal"
+	},
+	{
+		date: "9.1.2004",
+		head: "Projekt KRKAL obhájen!",
+		msg: "Tak jsme na Matfyzu úspěšně obhájili Projekt KRKAL (Systém pro tvorbu, editaci a hraní 2D her). Dokonce jsme dostali 4 body navíc, všichni to chválili (MegaProjekt, profesionální práce...) Jsme prostě KINGOVÉ!!! :-))",
+		author: "pal"
+	}
+]
+
