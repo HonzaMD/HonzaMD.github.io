@@ -22,7 +22,9 @@ příšery...
 
 <h1>Novinky</h1>
 
-<p>test</p>
+{% assign msg2 = site.data.newscs[0] %}
+{% include newscs.html msg=msg2 %}
+<p>test2</p>
 
 <p><a href="/cs/news.html">Další novinky ...</a></p>
 
