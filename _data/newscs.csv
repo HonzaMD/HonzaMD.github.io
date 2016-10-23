@@ -1,3 +1,4 @@
+date,head,msg,author
 "23.10.2016","Chystéme novou verzi 2.5","Ke dvacátému výročí chystáme znovuvydání hry Krkal 2!<br/>Chceme dotáhnout hru do úspěšného konce. Máme odemykání levelů, máme příběh, nové levely a desítky detailů dotažených do funkčního celku. Verze 2.5 si nehraje na herní engine, ale na funkční hotovou hru. Nebo spíše remasterovanou edici klasik z roku 1997 a 2004.","M.D."
 "23.6.2004","KRKAL v angličtině","Stránky krkal.org jsou nyní k dispozici v angličtině. Pokračujeme v překladu Systému KRKAL...","pal"
 "12.6.2004","Nová verze KRKALa",'Připravili jsme pro Vás novou verzi KRKALa (v2.4). Hlavní novinkou je savepoint, pomocí kterého si můžete uložit slibně rozehraný level, takže v případě neúspěchu nemusíte hrát celý level znovu. Udělali jsme několik nových levelů - myslím, že jsou velmi pěkné a že se s nimi pěknou chvíli zabavíte...',"pal"
