@@ -4,9 +4,19 @@ title: KRKAL Novinky
 lang: cs
 ---
 <h1>Novinky</h1>
-<p>
-Ke dvacátému výročí chystáme znovuvydání hry Krkal 2!<br/>
-Chceme dotáhnout hru do úspěšného konce. Máme odemykání levelů, máme příběh, nové levely a desítky detailů dotažených do funkčního celku. 
-Verze 2.5 si nehraje na herní engine, ale na funkční hotovou hru. Nebo spíše remasterovanou edici klasik z roku 1997 a 2004.
-</p>
 
+
+{% for member in site.data.newscs %}
+
+   <div class="news">
+	   <span class="news-ln1">
+		 <span class="news-date">{{member.date}}</span>
+		 <span class="news-head">{{member.head}}</span>
+	   </span> <br />
+	   <div class="news-msg">{{member.msg}}</div>
+	   <div class="news-autor">
+		<a href="/cs/team.html">member.author</a>
+	   </div>
+   </div>
+
+{% endfor %}
