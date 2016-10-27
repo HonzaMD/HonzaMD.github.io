@@ -4,7 +4,9 @@ title: KRKAL Team
 lang: cs
 ---
 
-# Support, kontakt: support@krkal.org
+# Support, kontakt:
+
+**support@krkal.org**
 
 Na náš email nám můžete posílat náměty, levely, žádosti o rady, 
 připomínky, hlášení chyb, ... Děkujeme :)

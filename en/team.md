@@ -3,7 +3,9 @@ layout: mainen
 title: KRKAL Team
 lang: en
 ---
-# Support, contact: support@krkal.org
+# Support, contact:
+
+**support@krkal.org**
 
 You can contact us with tips, levels, notices, help requests 
 and bug reports, ... Thank you :)
