@@ -1,0 +1,32 @@
+
+<div id="mmscreenshots">
+  <a id="mmssref" href="" class="im">
+    <img id="mmssimg" src="" alt=""/>
+  </a>
+</div>
+
+<script>
+  var imgs = [
+  "3%20Water%20Surfaces.jpg",
+  "Connected.jpg",
+  "Falling%20Stones.jpg",
+  "Ice%20Town.jpg",
+  "Jumping%20Wall.jpg",
+  "Minisokoban.jpg",
+  "Nitro.jpg",
+  "Photocell%20and%20Ice.jpg",
+  "Rama's%20Fields.jpg",
+  "Samoobsluha.jpg",
+  "Sandpit.jpg",
+  "UpNDown.jpg",
+  "Where%20It%20Topples.jpg",
+  "Where's%20Up.jpg",
+  "Super%20Lev.jpg"
+  ];
+
+
+  var seconds = new Date().getTime() / 100;
+  var img = imgs[seconds % imgs.length];
+  document.getElementById("mmssref").href = "/img/galerie/img/" + img;
+  document.getElementById("mmssref").src = "/img/galerie/img/" + img;
+</script>

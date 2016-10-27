@@ -64,6 +64,7 @@
     <None Include="en\team.md" />
     <Content Include="index.html" />
     <Content Include="menu.html" />
+    <Content Include="_includes\menuimg.html" />
     <Content Include="_includes\newsen.html" />
     <Content Include="_includes\newscs.html" />
     <Content Include="_includes\mien.html" />
