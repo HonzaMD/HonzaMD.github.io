@@ -25,8 +25,8 @@
   ];
 
 
-  var seconds = new Date().getTime() / 100;
+  var seconds = Math.round(new Date().getTime() / 100);
   var img = imgs[seconds % imgs.length];
   document.getElementById("mmssref").href = "/img/galerie/img/" + img;
-  document.getElementById("mmssref").src = "/img/galerie/img/" + img;
+  document.getElementById("mmssimg").src = "/img/thumb2/img/" + img;
 </script>
