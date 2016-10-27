@@ -6,13 +6,13 @@ submenu: krkal2
 ---
 # Krkal 2
 
+<img src="/img/manik.png" width="200" height="200" alt="Dráček" style="float:right"/>
 Krkal je logicko-akční hra. Hráč v ní ovládá postavičku, kterou vidí shora. 
 Hra je rozdělena na několik samostatných úrovní (levelů). Úkolem v každém levelu 
 je projít „bludištěm“, vyřešit přitom všechny nástrahy a dostat se do EXITu. 
 Hlavní myšlenka je tedy jednoduchá, její realizace se ovšem v některých 
 (téměř ve všech pokročilých) levelech stává peklem.
 
-<img src="/img/manik.png" width="200" height="200" alt="Dráček" style="float:right"/>
 Inspirací při tvorbě Krkala byly hry jako Robbo, Boulderdash (Supaplex), či Sokoban, 
 ale Krkal si nakonec našel vlastní cestu. Tou je především ohromné množství různých 
 "věcí" či "předmětů" nebo také stavebních prvků, ze kterých se nakonec poskládá level. 
@@ -22,15 +22,6 @@ To umožňuje stavět velmi ROZMANITÉ levely, v každém z nich pak narazíte n
 Příběh hry je o skupině dobrodruhů, kteří se vydávají do nebezpečného a záhadného světa Labyrintu. 
 Objeví dávnou civilizaci, která Labyrint postavila? Poznají tajemství Labyrintu? Splní si svá přání? 
 Nebo se nikdy nevrátí stejně jako většina těch před nimi?
-
-Zásada číslo jedna při hraní Krkala je „nebejt slepej“ a všímat si všech věcí. Naprosto všech. 
-Věci v levelech většinou nejsou umisťovány zbytečně. Pokud už si dané věci všimnu, můžu začít přemýšlet: 
-na co ta věc je, k čemu slouží, s čím souvisí a jak bych ji mohl využít. 
-Zvláštní pozornost je proto třeba věnovat věcem nenápadným, zatím nedostupným 
-(že se k něčemu neumím dostat, ještě neznamená, že se k tomu dostat nelze!), 
-či na první pohled zbytečným. Také je třeba si uvědomit, že mnoho levelů se může řešit mnoha způsoby. 
-Některé věci lze dělat v libovolném pořadí. Někdy na pořadí vůbec nezaleží a někdy volba chybného pořadí řešení 
-problému způsobí, že se dostaneš do situace, ze které už level nelze dohrát.
 
 Krkal obsahuje i Editor levelů. Pomocí tohoto editoru si může každý trochu zkušenější hráč naeditovat 
 vlastní level. Jak používat editor levelů se dozvíte v dokumentaci k editoru. 
