@@ -4,10 +4,14 @@
     <meta charset="UTF-8"/>
     
     {% if page.lang == 'cs' %}
-		<meta name="keywords" content="KRKAL, logicko akční hra, Sokoban, Robbo, Boulderdash, engine pro vývoj her" lang="cs" />
-		<meta name="description" content="KRKAL - systém pro tvorbu, editaci a hraní 2D her" lang="cs" />
+		<meta name="keywords" content="KRKAL, hra, logická, akční, top-down, freeware, Sokoban, Robbo, Boulder Dash, bludiště, labyrint, engine pro vývoj her" lang="cs" />
+		<meta name="description" content="KRKAL - logicko-akční top-down hra." lang="cs" />
+    {% else %}
+    <meta name="keywords" content="KRKAL, game, puzzle, action, top-down, freeware, Sokoban, Robbo, Boulder Dash, maze, labyrinth, game engine" lang="en" />
+    <meta name="description" content="KRKAL - puzzle-action top-down game." lang="en" />
     {% endif %}
-		<title>{{ page.title }}</title>
+
+    <title>{{ page.title }}</title>
 
     {% if page.css %}
     <link rel="stylesheet" type="text/css" href="/css/{{page.css}}.css" media="screen" />
@@ -23,9 +27,14 @@
 	<body>
 		<div id="container">
 			<div id="top">
-				<div id="logo"></div>
-				<div id="logo2"></div>
-			</div>
+        {% if page.lang == 'cs' %}
+        <div id="logo" onclick='location.href="/cs/"' onmouseover="window.status='http://www.krkal.org/cs/'" onmouseout="window.status=''"></div>
+				<div id="logo2" onclick='location.href="/cs/"' onmouseover="window.status='http://www.krkal.org/cs/'" onmouseout="window.status=''"></div>
+        {% else %}
+        <div id="logo" onclick='location.href="/en/"' onmouseover="window.status='http://www.krkal.org/en/'" onmouseout="window.status=''"></div>
+        <div id="logo2" onclick='location.href="/en/"' onmouseover="window.status='http://www.krkal.org/en/'" onmouseout="window.status=''"></div>
+        {% endif %}
+      </div>
 
       {{ content }}
 	
