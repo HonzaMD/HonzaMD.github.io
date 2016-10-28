@@ -1,3 +1,5 @@
 name: Krkal
 markdown: kramdown
 include: ['en', 'cs']
+gems:
+  - jekyll-sitemap
