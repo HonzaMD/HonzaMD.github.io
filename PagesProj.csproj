@@ -37,7 +37,6 @@
   <ItemGroup>
     <Content Include="404.html" />
     <Content Include="css\krkal.css" />
-    <Content Include="css\krkaladm.css" />
     <Content Include="css\krkalerr.css" />
     <Content Include="css\krkalprint.css" />
     <None Include="cs\download.md" />
@@ -63,7 +62,6 @@
     <Content Include="en\news.html" />
     <None Include="en\team.md" />
     <Content Include="index.html" />
-    <Content Include="menu.html" />
     <Content Include="_includes\menuimg.html" />
     <Content Include="_includes\newsen.html" />
     <Content Include="_includes\newscs.html" />
