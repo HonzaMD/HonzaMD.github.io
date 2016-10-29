@@ -7,6 +7,8 @@ submenu: krkal2
 # Krkal 2
 
 <img src="/img/manik.png" width="200" height="200" alt="Dráček" style="float:right"/>
+Ke dvacátému výročí chystáme znovuvydání hry v nové verzi 2.5. Starší verze Krkala 2 pod současnými Windows většinou nefungují.
+
 Krkal je logicko-akční hra. Hráč v ní ovládá postavičku, kterou vidí shora. 
 Hra je rozdělena na několik samostatných úrovní (levelů). Úkolem v každém levelu 
 je projít „bludištěm“, vyřešit přitom všechny nástrahy a dostat se do EXITu. 
@@ -29,7 +31,5 @@ vlastní level. Jak používat editor levelů se dozvíte v dokumentaci k editor
 Hra Krkal 2 byla vytvořena ve stejnojmenném herním enginu v roce 
 2004. Engine vznikl jako projekt na Matematicko-Fyzikální Fakultě
 Univerzity Karlovy a byl dále vyvíjen jako diplomová práce tamtéž.
-Původní Krkal 1 je z roku 1997 a tato verze 2.5 vzniká k 20tiletému 
-výročí hry Krkal - 2017.
 
 [Zdrojové kódy na GitHubu](https://github.com/HonzaMD/Krkal2)
