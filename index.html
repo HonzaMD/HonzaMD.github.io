@@ -8,11 +8,25 @@
   <meta name="description" content="KRKAL - puzzle-action top-down game." lang="en" />
   
   <!-- HTML meta refresh URL redirection -->
-  <meta http-equiv="refresh" content="0; url=/cs/"/>
+  <!--<meta http-equiv="refresh" content="0; url=/cs/"/>-->
   <title>KRKAL</title>
 </head>
 <body>
-   <p>The page has moved to: 
-   <a href="/cs/">this page</a></p>
+  <script>
+    var language = navigator.language || navigator.browserLanguage;
+    var lang = langCode.toLowerCase().substr(0,2);
+    if (lang == 'cs')
+    {
+      document.location.href = '/cs/';
+    }
+    else
+    {
+      document.location.href = '/en/';
+    }
+  </script>
+  <p>
+    <a href="/en/">Krkal - English pages</a>
+    <a href="/cs/">Krkal - České stránky</a>
+  </p>
 </body>
 </html>
