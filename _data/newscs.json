@@ -6,10 +6,10 @@
 		author: "M.D."
 	},
 	{
-		date: "23.6.2004",
-		head: "KRKAL v angličtině",
-		msg: "Stránky krkal.org jsou nyní k dispozici v angličtině. Pokračujeme v překladu Systému KRKAL...",
-		author: "pal"
+		date: "2.7.2004",
+		head: "KRKAL 2.4 v angličtině",
+		msg: "Vydali jsme anglickou verzi KRKALa 2.4.",
+		author: "pal"	
 	},
 	{
 		date: "12.6.2004",
@@ -38,13 +38,13 @@
 	{
 		date: "1.4.2004",
 		head: "Další recenze KRKALa",
-		msg: "Další recenzi KRKALa najdete na <a href='http://plnehry.idnes.cz/logicke/krkal.html'>plnehry.idnes.cz</a>.",
+		msg: "Další recenzi KRKALa najdete na <a href='http://plnehry.idnes.cz/krkal-neobycejny-akcne-logicky-zazitek-d95-/Clanek.aspx?c=A040330_085642_bw-plneHry-logicke_bw'>plnehry.idnes.cz</a>.",
 		author: "pal"
 	},
 	{
 		date: "24.3.2004",
 		head: "Recenze KRKALa",
-		msg: "Na herních serverech <a href='http://www.freehry.cz/index.php?id=hra&amp;gid=1295'>freehry.cz</a> a <a href='http://www.hernisvet.cz/index.php?page=hry_free&amp;page2=zobrazit&amp;id_hry=0000000397'>hernisvet.cz</a> si můžete přečíst recenze KRKALa, na stránce hernisvet.cz najdete i <a href='http://www.hernisvet.cz/okno.php?page=novinka&amp;id=00005'>rozhovor o KRKALovi</a>. Z těchto serverů si můžete i KRKALa stáhnout.",
+		msg: "Na herních serverech <a href='http://freehry.doupe.zive.cz/recenze/krkal-1/'>freehry.cz</a> a <a href='http://www.hernisvet.cz/index.php?page=hry_free&amp;page2=zobrazit&amp;id_hry=0000000397'>hernisvet.cz</a> si můžete přečíst recenze KRKALa, na stránce hernisvet.cz najdete i <a href='http://www.hernisvet.cz/okno.php?page=novinka&amp;id=00005'>rozhovor o KRKALovi</a>. Z těchto serverů si můžete i KRKALa stáhnout.",
 		author: "pal"
 	},
 	{
