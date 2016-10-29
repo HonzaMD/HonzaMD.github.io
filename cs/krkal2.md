@@ -13,7 +13,7 @@ je projít „bludištěm“, vyřešit přitom všechny nástrahy a dostat se d
 Hlavní myšlenka je tedy jednoduchá, její realizace se ovšem v některých 
 (téměř ve všech pokročilých) levelech stává peklem.
 
-Inspirací při tvorbě Krkala byly hry jako [Robbo](https://en.wikipedia.org/wiki/Robbo_(video_game%29), [Boulder dash](https://en.wikipedia.org/wiki/Boulder_Dash) (Supaplex), či [Sokoban](https://en.wikipedia.org/wiki/Sokoban), 
+Inspirací při tvorbě Krkala byly hry jako <a href="https://en.wikipedia.org/wiki/Robbo_(video_game)">Robbo</a>, [Boulder dash](https://en.wikipedia.org/wiki/Boulder_Dash) (Supaplex), či [Sokoban](https://en.wikipedia.org/wiki/Sokoban), 
 ale Krkal si nakonec našel vlastní cestu. Tou je především ohromné množství různých 
 "věcí" či "předmětů" nebo také stavebních prvků, ze kterých se nakonec poskládá level. 
 Předměty mezi sebou navíc podle složitých pravidel interagují, ovlivňují se, prostě žijí. 
