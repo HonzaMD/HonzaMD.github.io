@@ -12,20 +12,22 @@
   <title>KRKAL</title>
 </head>
 <body>
-  <script>
+  <script type="text/javascript">
     var language = navigator.language || navigator.browserLanguage;
     var lang = langCode.toLowerCase().substr(0,2);
     if (lang == 'cs')
     {
-      document.location.href = '/cs/';
+    location.href = '/cs/';
     }
     else
     {
-      document.location.href = '/en/';
+    location.href = '/en/';
     }
   </script>
   <p>
     <a href="/en/">Krkal - English pages</a>
+  </p>
+  <p>
     <a href="/cs/">Krkal - České stránky</a>
   </p>
 </body>
