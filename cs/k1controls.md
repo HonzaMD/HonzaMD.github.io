@@ -1,19 +1,20 @@
 ---
 layout: maincs
-title: KRKAL 2 Ovládání
+title: KRKAL 1 Ovládání
 lang: cs
-submenu: krkal2
+submenu: krkal1
 ---
 # Ovládání hry
 
 * pohyb postavičky: kurzorové klávesy
   * Postavička se vždy pohybuje pouze horizontálním nebo vertikálním směrem – nikdy ne šikmo.
   * Lze držet i více směrových kláves najednou, poté se bude postavička pohybovat jedním ze směrů, kam může jít, přičemž se bude preferovat naposledy zmáčknutý směr. To je neocenitelná vlastnost v různých bludištích.
-* přepínání mezi postavičkami: TAB
-  * v některých levelech je více postaviček
-  * někdy je možné mezi postavičkami přepínat, jindy se všechny ovládají najednou (když pak např. stiskne šipku  vpravo – všechny postavičky půjdou doprava)
 * použití bomby: Z
 * použití miny: X
+* použití jablka: 
+  * C - Hemr na chvilku zmizí
+  * C+klávesa směru - Pásovec vystřelí hliněnou střelu
+  * C+klávesa směru - Dráček vystřelí výbušnou střelu
 * sebrání značky: A
 * položení (otočení) směrové značky: 1+klávesa směru
 * položení zákazu vjezdu: 2

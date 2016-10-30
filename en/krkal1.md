@@ -2,6 +2,7 @@
 layout: mainen
 title: KRKAL 1
 lang: en
+submenu: krkal1
 ---
 # Krkal 1
 

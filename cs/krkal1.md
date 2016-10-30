@@ -2,6 +2,7 @@
 layout: maincs
 title: KRKAL 1
 lang: cs
+submenu: krkal1
 ---
 # Krkal 1
 

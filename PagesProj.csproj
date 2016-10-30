@@ -32,6 +32,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="cs\k1controls.md" />
+    <None Include="en\k1controls.md" />
     <None Include="_config.yml" />
     <None Include="_data\k2screenshots.csv" />
     <None Include="_data\newscs.json" />
@@ -58,7 +60,7 @@
     <None Include="en\k2controls.md" />
     <Content Include="en\k2objects.html" />
     <Content Include="en\k2screenshots.html" />
-    <Content Include="en\k2verHistory.html" />
+    <None Include="en\k2verHistory.md" />
     <None Include="en\krkal1.md" />
     <None Include="en\krkal2.md" />
     <None Include="en\krkal3.md" />

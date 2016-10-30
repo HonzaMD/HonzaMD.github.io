@@ -1,19 +1,20 @@
 ---
 layout: mainen
-title: KRKAL 2 Controls
+title: KRKAL 1 Controls
 lang: en
-submenu: krkal2
+submenu: krkal1
 ---
 # Game Controls
 
 * movement: key arrows
   * You can move in four basic directions only – you cannot move diagonally.
   * You may hold more arrow keys at once, in which case you will move in one of the directions available at the moment, the last pressed key is preferred. This is very useful in the labyrinths.
-* switching between the characters: TAB
-  * In some levels, you can control more than one character.
-  * Sometimes you control only one character at the moment and may switch between them, while sometimes you control them all together. In this case, if you for example press the right arrow key, all the characters will start moving right.
 * drop a bomb: Z
 * put down a mine: X
+* use an apple:
+  * C - Slime Guy briefly disappears
+  * C + direction arrow - Armadillo shots soil projectile
+  * C + direction arrow - Dragon shots explosive projectile
 * pick up a traffic sign: A
 * put down a direction sign: 1 + direction arrow (you may also change the direction of a lying sign)
 * put down a no fare sign: 2

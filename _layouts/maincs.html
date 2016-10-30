@@ -23,6 +23,17 @@ layout: default
 
 				<li class="navbreak"></li>
   				{% include mics.html id='krkal1.html' name='Krkal 1' pn=pn2 %}
+
+			{% if page.submenu == 'krkal1' %}
+			</ul>
+			<div class="navcontainer2">
+				<ul>
+     				{% include mics.html id='k1controls.html' name='Ovládání' pn=pn2 %}
+				</ul>
+			</div>
+			<ul>
+			{% endif %}
+
   				{% include mics.html id='krkal2.html' name='Krkal 2' pn=pn2 %}
 		
 			{% if page.submenu == 'krkal2' %}

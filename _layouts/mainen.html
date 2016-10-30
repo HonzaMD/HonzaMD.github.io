@@ -23,6 +23,17 @@ layout: default
 
 				<li class="navbreak"></li>
   				{% include mien.html id='krkal1.html' name='Krkal 1' pn=pn2 %}
+
+			{% if page.submenu == 'krkal1' %}
+			</ul>
+			<div class="navcontainer2">
+				<ul>
+     				{% include mien.html id='k1controls.html' name='Controls' pn=pn2 %}
+				</ul>
+			</div>
+			<ul>
+			{% endif %}
+
   				{% include mien.html id='krkal2.html' name='Krkal 2' pn=pn2 %}
 		
 			{% if page.submenu == 'krkal2' %}
