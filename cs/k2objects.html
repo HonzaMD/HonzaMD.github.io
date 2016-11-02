@@ -9,8 +9,7 @@ submenu: krkal2
 <div class="krkalveci">
 {% include shnavcs.html %}
 
-<a name="manici"></a>
-<h2>Tvoje podoby</h2>
+<h2 id="manici">Tvoje podoby</h2>
 <p>
 Tvoje podoba se může v průběhu hry měnit. Děje se tak buď mezi levely nebo z tvé vlastní vůle pomocí speciálních zařízení - <a href="#hajzly">proměňovačů</a>, které mohou být umístěny v levlu. Každá ze tří podob má své speciální vlastnosti (nějaké výhody i nevýhody).
 </p>
@@ -21,8 +20,7 @@ Tvoje podoba se může v průběhu hry měnit. Děje se tak buď mezi levely neb
   {% include geend.html %}
 {% include shnavcs.html %}
 
-<a name="podlahy"></a>
-<h2>Podlahy</h2>
+<h2 id="podlahy">Podlahy</h2>
   {% include gebegin.html %}
   {% include ge.html ln="podlaha" name="Podlaha" desc="Základní podlaha v Krkalovi. Žádná věc na podlahu nijak nepůsobí, podlaha nemůže ovlivnit žádný předmět v Krkalovi." pic="podlaha-kameny.gif" %}
   {% include ge.html ln="dira" name="Díra, Láva" desc='Všechny <a href="#strk_predmety">strkatelné</a> a <a href="#veci">sebratelné předměty</a> (kromě <a href="#balonek">balónku</a>), všechny <a href="#manici">Tvoje podoby</a> a všechny <a href="#prisery">příšery</a>, pokud se ocitnou nad dírou (či díra se ocitne pod nimi), spadnou nenávratně do díry. Díry a lávy jsou bezedné, takže do nich můžeš nastrkat libovolné množství předmětů. Do děr nepadá balónek, jelikož se vznáší, a různé pevně umístěné předměty (magnet) a stěny.' pic="dira.gif" %}
@@ -37,8 +35,7 @@ Tvoje podoba se může v průběhu hry měnit. Děje se tak buď mezi levely neb
   {% include geend.html %}
 {% include shnavcs.html %}
 
-<a name="steny"></a>
-<h2>Stěny</h2>
+<h2 id="steny">Stěny</h2>
   {% include gebegin.html %}
   {% include ge.html ln="stena" name="Stěna" desc='Klasická pevná stěna. Nelze žádným klasickým způsobem zničit, přelézt nebo odstrčit.' pic="stena0000.gif" %}
   {% include ge.html ln="skavastena" name="Skákavá Stěna" desc='Stěna, která může vyskočit nahoru a nechat tě pod sebou projít, ale pozor, ať tě nerozmáčkne! Stěna typicky bývá ovládána <a href="#prepinace">přepínači</a> (posíláním zpráv <code>OdstartujSkoky</code>, <code>OtevriStenu</code> a <code>ZavriStenu</code>), které ji mohou poslat nahoru nebo dolu, dále stěna může opakovaně skákat. Nelze žádným klasickým způsobem zničit, přelézt nebo odstrčit.' pic="stena0000.gif" %}
@@ -51,8 +48,7 @@ Tvoje podoba se může v průběhu hry měnit. Děje se tak buď mezi levely neb
   {% include geend.html %}
 {% include shnavcs.html %}
 
-<a name="prepinace"></a>
-<h2>Přepínače</h2>
+<h2 id="prepinace">Přepínače</h2>
 <p>
 Přepínače dokáží v levelu téměř cokoli změnit. Dokáží zapínat a vypínat <a href="#pas">pásy</a>, dokáží tvořit předměty, dokáží naprosto změnit umístění stěn, změnit podlahy na jiné, vytvořit průchod ve stěně... A každý přepínač může těchto změn udělat několik. Přepínače jsou nezničitelné.
 </p>
@@ -64,8 +60,7 @@ Přepínače dokáží v levelu téměř cokoli změnit. Dokáží zapínat a vy
   {% include geend.html %}
 {% include shnavcs.html %}
 
-<a name="veci"></a>
-<h2>Sebratelné předměty (Věci)</h2>
+<h2 id="veci">Sebratelné předměty (Věci)</h2>
 <p>
 Tyto předměty jsou zničitelné, mohou se hýbat, pokud na ně působí nějaká síla, například <a href="#magnet">magnet</a> nebo <a href="#pas">pás</a>. Také ochotně padají do <a href="#dira">děr</a>, aktivují <a href="#naslapnapodlaha">nášlapné</a> a <a href="#propadlo">propadající</a> podlahy. Všechny tyto předměty také působí kulatě. Tedy při pohybu se obkutálejí, sypou se do hromádek a podobně. Ty, pokud máš ještě místo v inventáři a pokud vejdeš na políčko s předmětem, tak ten předmět sebereš. Pokud máš plno, přecházíš nad předmětem, nemůžeš ho strkat. <a href="#prisery">Příšery</a> také chodí nad předmětem.
 </p>
@@ -85,8 +80,7 @@ Tyto předměty jsou zničitelné, mohou se hýbat, pokud na ně působí nějak
   {% include geend.html %}
 {% include shnavcs.html %}
 
-<a name="strk_predmety"></a>
-<h2>Strkatelné předměty</h2>
+<h2 id="strk_predmety">Strkatelné předměty</h2>
 <p>
 Jsou to pohyblivé a šoupatelné předměty (nejdou tedy sbírat), různých vlastností. Předměty až na <a href="#krabice">Krabici</a> působí kulatě.
 </p>
@@ -100,8 +94,7 @@ Jsou to pohyblivé a šoupatelné předměty (nejdou tedy sbírat), různých vl
   {% include geend.html %}
 {% include shnavcs.html %}
 
-<a name="predmety"></a>
-<h2>Další předměty</h2>
+<h2 id="predmety">Další předměty</h2>
   {% include gebegin.html %}
   {% include ge.html ln="magnet" name="Magnet" desc='Magnet generuje magnetické pole tím směrem, jakým je nasměrován. Pole jednoho magnetu je vždy omezeno na řadu či sloupec velikosti 1*n políček. Pole začíná magnetem a končí okrajem levelu nebo <a href="#antimagnet">antimagnetickou stěnou</a>. Nic jiného pole magnetu přerušit nemůže. Všechny <a href="#strk_predmety">pohyblivé věci</a>, které jsou přitahovány magnetem, se začnou pohybovat směrem k magnetu, pokud jim v tom nebrání nějaká překážka. Magnet způsobuje tzv. padaní předmětů. Padající předměty zabijí <a href="#hemr">Hemra</a>, <a href="#dracek">Dráčka</a> a všechny <a href="#prisery">příšery</a>. Magnet je nezničitelný.' pic="magnet6.gif" %}
   {% include ge.html ln="proud" name="Elektrody s vysokým napětím" desc='Jedna elektroda generuje v určitých intervalech výboj elektrického proudu. Tento výboj je dlouhý paprsek, který končí až na první překážce, pokud je tato překážka zničitelná, bude zničena. Proudem se dá proběhnout v intervalech mezi výboji. Pokud je naproti Elektrodě jiná Elektroda, která vysílá výboje ve stejných časech, proud mezi nimi se ustalí a už se nepřerušuje. Pokud mezi Elektrody narafičíš nějakou věc, Elektrody mezi sebou ztratí kontakt a dojde k chvilkovému přerušení proudu, v tom okamžiku můžeš místem, kde byl proud, proběhnout. Elektrody jsou nezničitelné.' pic="" %}
@@ -110,8 +103,7 @@ Jsou to pohyblivé a šoupatelné předměty (nejdou tedy sbírat), různých vl
   {% include geend.html %}
 {% include shnavcs.html %}
 
-<a name="prisery"></a>
-<h2>Příšery</h2>
+<h2 id="prisery">Příšery</h2>
 <p>
 Pro pohyb příšer platí stejná pravidla jako třeba pro <a href="#pasovec">Pásovce</a>. Kromě toho, že někam chtít chtějí, na ně působí i <a href="#pas">pásy</a> a <a href="#led">led</a>. Pokud překážíš příšeře v cestě, zabije tě (to neplatí pro <a href="#pot_klaustr">Příšeru klaustrofóbní</a>).
 </p>
