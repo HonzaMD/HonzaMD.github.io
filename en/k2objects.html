@@ -46,7 +46,7 @@ Your form can change during a game. It can happen when you start a new level or 
   {% include ge.html ln="antimagnet" name="Antimagnetic wall" desc='This wall cancels the effect of the <a href="#magnet">magnet</a>, so the magnetic force does not affect the space behind the wall. It cannot be destroyed, climbed over or pushed.' pic="antimagnet.gif" %}
   {% include ge.html ln="hlina" name="Soil" desc='The soil can be easily destroyed. You can even destroy it simply by getting on it. The soil does not prevent you from moving; you can dig through it, leaving empty space behind you. Neither <a href="#prisery">monsters</a> nor any <a href="#veci">objects</a> are able to move in the soil. For example - if the <a href="#kamen">stone</a> falls on the soil, it stops and will not destroy the soil. There may be dangerous floors (like <a href="#dira">pits</a>) hidden under the soil.' pic="hlina.gif" %}
   {% include ge.html ln="dvere" name="Door" desc='When closed, the door acts like an ordinary <a href="#stena">wall</a>. Opened door does not represent an obstacle and anything (including the <a href="#proud">high voltage discharge</a>, for instance) may pass through it. Usually the door is set to open whenever you come in front of it. Alternatively, another object can trigger it or it can be off power.' pic="dvereV0000.gif" %}
-  {% include ge.html ln="pruleznastena" name="Crawlable wall" desc='Only the <a href="#hemr">Slime Guy</a> may crawl through this wall and it behaves as the ordinary <a href="#stena">wall</a> for everything else. This wall can be destroyed in the explosion.' pic="prulstena.gif" %}
+  {% include ge.html ln="pruleznastena" name="CrawlableÂ wall" desc='Only the <a href="#hemr">Slime Guy</a> may crawl through this wall and it behaves as the ordinary <a href="#stena">wall</a> for everything else. This wall can be destroyed in the explosion.' pic="prulstena.gif" %}
   {% include ge.html ln="zamky" name="Locks" desc='The locks behave like the ordinary <a href="#stena">wall</a> . You can unlock them if you have at least one <a href="#klice">key</a> of the same color as the lock. Once unlocked, the lock disappears forever.' pic="zamekR.gif" %}
   {% include geend.html %}
 {% include shnaven.html %}
@@ -75,11 +75,11 @@ All these objects are destroyable, they can move if some force (like a <a href="
   {% include ge.html ln="mina" name="Mine" desc='The mine can be either activated or inactive. The activated mine has the top yellow light lit. You can pick up inactive mines. Once dropped, the mine waits few seconds to let you run away. After that, if any living creature (<a href="#manici">you</a> or some <a href="#prisery">monster</a>) or explosion reaches the cell next to the activated mine, the mine explodes after a short delay. It is possible to come next to the activated mine and run back quickly to escape the explosion. However, you cannot run over the activated mine without being killed by the explosion. If destroyed, the mine explodes immediately. The chained explosion occurs even if the activated mines are placed with one free cell between two of them.' pic="mina.gif" %}
   {% include ge2.html ln="znacky" name="Traffic sign" desc='The <a href="#pot_dopravni">traffic monsters</a> and the <a href="#pot_klaustr">claustrophobic monsters</a> follow these signs. You can be sure that they do not even think about breaking the traffic rules. If you need some monster to be on certain place, you can simply alter the traffic signs location in the level. You do not pick up the traffic signs unless you hold the key for the traffic signs pickup (which is \'A\' by default). The signs are not attracted to the <a href="#magnet">magnet</a>.
     <ul>
-    <li>The monster turns back (by 180°) after getting to no fare sign.</li>
+    <li>The monster turns back (by 180Â°) after getting to no fare sign.</li>
     <li>The monster follows the direction of the direction sign.</li>
     <li>The speed limit of 60 km/h (37 mph) makes the monster to travel at its usual speed.</li>
     <li>The end of the speed limit makes the monster to travel really fast.</li>
-    <li>After crashing in the obstacle (for example the wall), the monster turns back (by 180°).</li>
+    <li>After crashing in the obstacle (for example the wall), the monster turns back (by 180Â°).</li>
     </ul>'
     w=60 pic="zakazvjezdu.gif" pic2="prikazanysmer6.gif" pic3="60.gif" pic4="konec60.gif" %}
   {% include geend.html %}
