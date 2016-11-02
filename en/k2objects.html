@@ -9,8 +9,7 @@ submenu: krkal2
 <div class="krkalveci">
 {% include shnaven.html %}
 
-<a name="manici"></a>
-<h2>Your forms</h2>
+<h2 id="manici">Your forms</h2>
 <p>
 Your form can change during a game. It can happen when you start a new level or when you touch a special device - the <a href="#hajzly">converter</a> - that can be found in some levels. There are three forms, each having its unique features. Having the right form in the right time is often the key to victory.
 </p>
@@ -21,8 +20,7 @@ Your form can change during a game. It can happen when you start a new level or 
   {% include geend.html %}
 {% include shnaven.html %}
 
-<a name="podlahy"></a>
-<h2>Floors</h2>
+<h2 id="podlahy">Floors</h2>
   {% include gebegin.html %}
   {% include ge.html ln="podlaha" name="Floor" desc="Ordinary floor has no special behavior." pic="podlaha-kameny.gif" %}
   {% include ge.html ln="dira" name="Pit, Lava" desc='All <a href="#strk_predmety"> pushable</a> and <a href="#veci"> pickupable</a> objects (excepting the <a href="#balonek">balloon</a>), all <a href="#manici"> your forms</a> and all <a href="#prisery">monsters</a> will fall in the pit/lava whenever they step on it (or get on it). Everything is lost in the pit/lava forever; no recovery is possible. Pits are bottomless, so the number of object that can be pushed in the pit/lava is not limited. The balloon does not fall in the pit/lava as it floats over. Pit/lava does not affect several mounted objects (for example <a href="#magnet"> magnets</a>) and <a href="#steny">walls</a>.' pic="dira.gif" %}
@@ -37,8 +35,7 @@ Your form can change during a game. It can happen when you start a new level or 
   {% include geend.html %}
 {% include shnaven.html %}
 
-<a name="steny"></a>
-<h2>Walls</h2>
+<h2 id="steny">Walls</h2>
   {% include gebegin.html %}
   {% include ge.html ln="stena" name="Wall" desc='Ordinary solid wall. It cannot be destroyed, climbed over or pushed.' pic="stena0000.gif" %}
   {% include ge.html ln="skavastena" name="Jumping wall" desc='This wall can jump up and let you to pass under it, or it can jump up and down - which makes passing by more dangerous. Usually the wall is controlled by some <a href="#prepinace">switch</a> - this can send messages <code>OdstartujSkoky</code> (jumping), <code>OtevriStenu</code> (jump up) and <code>ZavriStenu</code> (jump down). Like an ordinary wall, the jumping wall cannot be destroyed, climbed over or pushed.' pic="stena0000.gif" %}
@@ -51,8 +48,7 @@ Your form can change during a game. It can happen when you start a new level or 
   {% include geend.html %}
 {% include shnaven.html %}
 
-<a name="prepinace"></a>
-<h2>Switches</h2>
+<h2 id="prepinace">Switches</h2>
 <p>
 Switches provide a powerful tool to perform modifications in the level. For example - they can power the <a href="#pas">conveyors</a> on and off, create various <a href="#veci">objects</a>, change the location of <a href="#steny">walls</a>, change the type of <a href="#podlahy">floors</a>, create a pass it the wall... Every single switch can perform multiple operations like these. The switches cannot be destroyed. They can be programmed just to do some actions (every time the same) either when switched on or off. Alternatively, they can be set to do actions and to undo them after switched next time. 
 </p>
@@ -64,8 +60,7 @@ Switches provide a powerful tool to perform modifications in the level. For exam
   {% include geend.html %}
 {% include shnaven.html %}
 
-<a name="veci"></a>
-<h2>Pickupable items (Things)</h2>
+<h2 id="veci">Pickupable items (Things)</h2>
 <p>
 All these objects are destroyable, they can move if some force (like a <a href="#magnet">magnet</a> or the <a href="#pas">conveyor</a>) affects them. They fall in <a href="#dira">pits</a>, activate a <a href="#naslapnapodlaha">floor trigger</a> and <a href="#propadlo">traps</a>. In addition, they all have a round nature, so they roll around whenever they hit during a movement, they form the heaps etc. You can pickup these items assuming you have enough space in your inventory. In case you do not have a free space for the item, you just walk over it without picking it up; you cannot push it. The <a href="#prisery">monsters</a> always walk over these items. 
 </p>
@@ -85,8 +80,7 @@ All these objects are destroyable, they can move if some force (like a <a href="
   {% include geend.html %}
 {% include shnaven.html %}
 
-<a name="strk_predmety"></a>
-<h2>Pushable items</h2>
+<h2 id="strk_predmety">Pushable items</h2>
 <p>
 These items can move and you can push them (so you cannot pick them up). They all have a round nature excepting the <a href="#krabice">box</a>.
 </p>
@@ -100,8 +94,7 @@ These items can move and you can push them (so you cannot pick them up). They al
   {% include geend.html %}
 {% include shnaven.html %}
 
-<a name="predmety"></a>
-<h2>Other items</h2>
+<h2 id="predmety">Other items</h2>
   {% include gebegin.html %}
   {% include ge.html ln="magnet" name="Magnet" desc='The magnet generates a magnetic field in the way it is directed. The field is always covering an area of 1*n cells (horizontally or vertically) beginning in magnet and ending in the end of the map or in front of the <a href="#antimagnet">antimagnet</a>. Nothing else can interrupt the magnetic field. All <a href="#veci">objects</a> affected by the magnetism will start moving to the magnet, if the path is free of obstacles. Magnets cause the objects to fall. Falling objects would kill the <a href="#hemr">Slime Guy</a> , the <a href="#dracek">Dragon</a>, all <a href="#prisery">monsters</a> and the <a href="#balonek">balloon</a>. Magnets cannot be destroyed.' pic="magnet6.gif" %}
   {% include ge.html ln="proud" name="Electrode with high voltage" desc='One electrode generates discharges of electric power in short periods. Each discharge creates a long beam, which stops on the first obstacle in its way. If the obstacle is destroyable, it will be destroyed and the beam will enlarge even more. The beam would kill you, but you can pass through in the short time between two discharges. If there are two electrodes located to discharge one against the other in the same time, the beam will be stabilized. However, you can push some object between the electrodes - they will lose contact, which makes the beam unstable again. Electrodes cannot be destroyed.' pic="" %}
@@ -110,8 +103,7 @@ These items can move and you can push them (so you cannot pick them up). They al
   {% include geend.html %}
 {% include shnaven.html %}
 
-<a name="prisery"></a>
-<h2>Monsters</h2>
+<h2 id="prisery">Monsters</h2>
 <p>
 The monsters move in the same way as the <a href="#pasovec">Armadillo</a>. Besides they try to move on their own, <a href="#pas">conveyors</a> and <a href="#led">ice</a> affect them. The monsters will kill you if they reach you, with exception of the <a href="#pot_klaustr">claustrophobic monster</a>.
 </p>
