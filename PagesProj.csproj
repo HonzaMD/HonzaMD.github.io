@@ -76,6 +76,7 @@
     </Content>
     <Content Include="_includes\gebegin.html" />
     <Content Include="_includes\geend.html" />
+    <Content Include="_includes\shnaven.html" />
     <Content Include="_includes\shnavcs.html" />
     <Content Include="_includes\newsen.html" />
     <Content Include="_includes\newscs.html" />
