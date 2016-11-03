@@ -1,12 +1,12 @@
 <tr class="gameName" id="{{include.ln}}">
-	<td colspan="2">{{include.name}}</td>
+	<td style="padding:5px;" colspan="2">{{include.name}}</td>
 </tr>
 <tr class="gameDesc">
-  <td style="width: {{include.w}}px;"><div class="center">
+  <td style="width: {{include.w}}px;padding:5px;"><div class="center">
     {% if include.pic != '' %}<img src="/img/hra/{{include.pic}}" alt="{{include.name}}"/>{% endif %}
     {% if include.pic2 != '' %}<img src="/img/hra/{{include.pic2}}" alt="{{include.name}}"/>{% endif %}
     {% if include.pic3 != '' %}<img src="/img/hra/{{include.pic3}}" alt="{{include.name}}"/>{% endif %}
     {% if include.pic4 != '' %}<img src="/img/hra/{{include.pic4}}" alt="{{include.name}}"/>{% endif %} 
   </div></td>
-  <td>{{include.desc}}</td>
+  <td style="padding:5px;">{{include.desc}}</td>
 </tr>
