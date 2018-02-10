@@ -7,7 +7,8 @@ submenu: download
 # Novinky ve verzi 2.5
 
 * Slavíme 20 let od dokončení prvního Krkala.
-* 8 nových levelů.
+* 8 nových levelů v hlavní hře.
+* 9 nových levelů s těžkými hlavolamy.
 * Levely je nutno hrát postupně, dohráváním se odemykají. 
 * Zavedeny uživatelské profily. Pod profilem si hra pamatuje dohrané levely, či levely odemčené k editaci nebo k hraní.
 * Změněno hlavní menu hry.

@@ -28,8 +28,7 @@ Nebo se nikdy nevrátí stejně jako většina těch před nimi?
 Krkal obsahuje i Editor levelů. Pomocí tohoto editoru si může každý trochu zkušenější hráč naeditovat 
 vlastní level. Jak používat editor levelů se dozvíte v dokumentaci k editoru. 
 
-Hra Krkal 2 byla vytvořena ve stejnojmenném herním enginu v roce 
-2004. Engine vznikl jako projekt na Matematicko-Fyzikální Fakultě
+Hra Krkal 2 byla vytvořena ve stejnojmenném herním enginu v roce 2004. Engine vznikl jako projekt na Matematicko-Fyzikální Fakultě
 Univerzity Karlovy a byl dále vyvíjen jako diplomová práce tamtéž.
 
 [Zdrojové kódy na GitHubu](https://github.com/HonzaMD/Krkal2)
