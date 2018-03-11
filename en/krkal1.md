@@ -17,6 +17,6 @@ The game Krkal 1 was developed in the years 1996 and 1997. It is in Czech langua
    
 Warning: The game is quite difficult in later levels.
    
-[Download Krkal 1](/dl/Krkal1.zip) ([license](/en/download.html))  
+[Download Krkal 1](https://github.com/HonzaMD/Krkal1/releases/download/v0.9.2/Krkal1.zip) ([license](/en/download.html))  
 [Source codes on GitHub](https://github.com/HonzaMD/Krkal1)
 
