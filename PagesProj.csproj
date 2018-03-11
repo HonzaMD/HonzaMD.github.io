@@ -38,6 +38,7 @@
     <None Include="_data\k1screenshots.csv" />
     <None Include="_data\k2screenshots.csv" />
     <None Include="_data\newscs.json" />
+    <None Include="_data\constants.json" />
     <None Include="_data\newsen.json" />
   </ItemGroup>
   <ItemGroup>

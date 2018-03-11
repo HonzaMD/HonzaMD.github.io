@@ -1,15 +1,15 @@
 [
 	{
-		date: "23.10.2016",
-		head: "Preparing new version 2.5",
-		msg: "For the 20-th anniversary we are preparing a new version of the game Krkal 2!<br/>We want to finally complete the job. We have level unlocking, story line, new levels and tens of details finished and functional. With 2.5 we are not promoting the game engine, instead we concentate just on the game. We are making remastered edition of the classics from years 1997 and 2004.",
-		author: "M.D."
+		"date": "23.10.2016",
+		"head": "Preparing new version 2.5",
+		"msg": "For the 20-th anniversary we are preparing a new version of the game Krkal 2!<br/>We want to finally complete the job. We have level unlocking, story line, new levels and tens of details finished and functional. With 2.5 we are not promoting the game engine, instead we concentate just on the game. We are making remastered edition of the classics from years 1997 and 2004.",
+		"author": "M.D."
 	},
 	{
-		date: "2.7.2004",
-		head: "KRKAL version 2.4 english",
-		msg: "We released english version of KRKAL 2.4.",
-		author: "pal"	
+		"date": "2.7.2004",
+		"head": "KRKAL version 2.4 english",
+		"msg": "We released english version of KRKAL 2.4.",
+		"author": "pal"	
 	}
 ]
 

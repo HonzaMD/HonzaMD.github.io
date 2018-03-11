@@ -20,7 +20,7 @@ Chystáme verzi 2.5. Předpokládaný rok vydání: ~~2017~~ 2018.
 # Krkal 1
 
 Hra z roku 1997. Nyní je hratelná pod [DOSBoxem](http://www.dosbox.com/).  
-[Stáhnout Krkala 1](https://github.com/HonzaMD/Krkal1/releases/download/v0.9.2/Krkal1.zip)
+[Stáhnout Krkala 1]({{site.data.constants.krkal1DownloadUrl}})
 
 # Krkal 3
 
