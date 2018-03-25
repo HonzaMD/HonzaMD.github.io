@@ -6,12 +6,12 @@ submenu: download
 ---
 # Freeware License
 
-* Program Krkal (all versions) can be free downloaded and you are allowed to distribute the program further, but only for free.
-* You are free to receive a full featured game. The program does not contain advertising, microtransactions or any unwanted or malicious code.
-* You may use the program, modify the games created within the system, create new levels.
-* Use this program at your own risk. We cannot be held responsible for any loss or damage this program might have caused.
-* You are NOT allowed to distribute KRKAL for money or even use it as a part of any commercial product without our explicit permission.
-* All rights reserved (c) 2018 P. Altman, J. Krček, J. Margaritov, J. Poduška, J. Frolík
+* Program Krkal (all versions) is free to download, and it can be further distributed for free. 
+* You get the complete game free. Program does not contain advertisements, micro-transactions or any unwanted or malicious code.
+* You may use the program, modify the games created within the system, create new levels. 
+* You are using the program at your own risk. We do not assume any responsibility for any damages that arise relative to the use of the program.
+* It is not permitted to use Krkal as part of a commercially sold product without our consent. 
+* All other copyrights reserved (c) 2018 P. Altman, J. Krček, J. Margaritov, J. Poduška, J. Frolík
 
 # Krkal 2
 
@@ -24,5 +24,5 @@ Game from year 1997. Currently is playable under [DOSBox](http://www.dosbox.com/
 
 # Krkal 3
 
-Source codes are available on [GitHub](https://github.com/HonzaMD/Krkal3)  
+Source codes are available at [GitHub](https://github.com/HonzaMD/Krkal3)  
 [Thesis (CS)](/dl/JazykProRizeni2DHer.pdf)

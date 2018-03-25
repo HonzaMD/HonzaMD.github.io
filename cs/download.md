@@ -11,7 +11,7 @@ submenu: download
 * Je možné program používat, modifikovat v něm vytvářené hry, tvořit nové levely. 
 * Program používáte na vaše vlastní nebezpečí. Nepřebíráme zodpovědnost za jakékoli škody vzniklé v souvislosti s používáním programu. 
 * Bez našeho svolení není možné použít program Krkal jako součást nějakého komerčně prodávaného produktu. 
-* Veškerá další autorská práva vyhrazena (c) 2018 Krkal Team
+* Veškerá další autorská práva vyhrazena (c) 2018 P. Altman, J. Krček, J. Margaritov, J. Poduška, J. Frolík
 
 # Krkal 2
 
