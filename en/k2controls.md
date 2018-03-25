@@ -6,29 +6,40 @@ submenu: krkal2
 ---
 # Game Controls
 
-* movement: key arrows
+* character movement: arrow keys 
   * You can move in four basic directions only – you cannot move diagonally.
-  * You may hold more arrow keys at once, in which case you will move in one of the directions available at the moment, the last pressed key is preferred. This is very useful in the labyrinths.
-* switching between the characters: TAB
-  * In some levels, you can control more than one character.
-  * Sometimes you control only one character at the moment and may switch between them, while sometimes you control them all together. In this case, if you for example press the right arrow key, all the characters will start moving right.
-* drop a bomb: Z
-* put down a mine: X
-* pick up a traffic sign: A
-* put down a direction sign: 1 + direction arrow (you may also change the direction of a lying sign)
-* put down a no fare sign: 2
-* put down a 60 km/h speed limit sign: 3
-* put down an end of the 60 km/h speed limit sign: 4
-* go back to the game menu: ESC
+  * You may hold more arrow keys at once, in which case you will move in one
+of the directions available at the moment, the last pressed key is
+preferred. This is a priceless quality in various mazes.
+* switching between characters: TAB
+  * in some levels you have multiple characters
+  * sometimes it is possible to switch between the characters, other times they are all controlled at once
+(when then for example you press right arrow - all characters will move right) 
+* using a bomb: Z 
+* using a mine: X 
+* pick up a traffic sign: A 
+* placing (and/or turning) a directional sign: 1+directional key 
+* placing do not enter: 2 
+* placing sixty: 3 
+* placing end of sixty: 4 
+* back to the main menu: Esc
 
-You can pick up some items and collect them in your inventory. You may 
-collect up to 12 items of each type. Most of these items are picked up 
-automatically as you step on the cell they are located. You cannot decide 
-whether to pick up such item or not. The traffic signs are exception, you 
-can choose to pick a sign by pressing ‘A’ key. Once picked up, the items 
-cannot be discarded, but you can use some of them (as described above). 
-Some items are used automatically – for instance, the key is used after 
-you have tried to step on the cell blocked by the lock. Here we would 
-like to warn of one captious feature: If you have a key and you are forced 
-to move towards the lock (usually on the ice), you will unlock it when 
-either you want or not.
+A player character can collect certain items. A maximum of 12 pieces
+of each item is allowed. Most items get picked up automatically, as soon
+as the character enters the cell. With these items it is not possible to
+decide whether you want them or not. An exception are signs, they are
+collected using a special key 'A'.
+
+The collected items cannot be disposed of without a reason. Some items
+can be used with a special key (see above). Other items are used
+automatically - e.g. key is used always, when a player wants to enter
+a cell which a lock. Here I want to point out one sneaky thing - if
+a player has a key and some force makes him enter (e.g. sliding on ice)
+a cell with the lock - then the lock will always unlock, whether the player
+wishes it or not. 
+
+* Switch to the script editor: F1
+* Switch to the level editor: F2
+* Switch to the game main menu: F3
+* Quit Krkal: F4
+* Switching between full screen and windowed mode: Alt+Enter

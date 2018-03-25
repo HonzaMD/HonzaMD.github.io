@@ -37,4 +37,4 @@ Compiler, Code Generator, Integrated Environment for script writing (today it wo
 New graphics engine, Level Editor, or component for game GUI, Hud, ... 
 
 [Source codes at GitHub](https://github.com/HonzaMD/Krkal3)  
-[Diploma thesis](/dl/JazykProRizeni2DHer.pdf)
+[Diploma thesis (in Czech)](/dl/JazykProRizeni2DHer.pdf)
