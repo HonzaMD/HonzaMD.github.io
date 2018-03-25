@@ -7,16 +7,19 @@ submenu: krkal1
 # Krkal 1
 
 <img src="/img/galerie/img/Krka1FL.jpg" style="float:right;margin-left:10px;" alt="level"/>
-Krkal 1.0 is puzzle-action top-down game for DOS.  
-With one of three different characters, you have to avoid all dangerous traps, deal with various items, escape from deadly monsters and finally find the way to exit. 
-Game is based on many miscellaneous items, which interact one with the other. You will push stones, slide on ice, 
-avoid stepping on mines, play with switches, setup lasers and mirrors, wander in complex labyrinths and even 
-set up traffic signs to take advantage of the traffic monsters!
+Krkal 1 is a puzzle action top-down DOS game.
 
-The game Krkal 1 was developed in the years 1996 and 1997. It is in Czech language only and its playable under the [DOSBox](http://www.dosbox.com/) emulator.
+You'll try to control one of three characters, you'll help them overcome all obstacles and make them to the exit.
+The game is based on these obstacles (game objects) - they are various, their volume is large and they mutually complement each other.
+
+In Krkal you'll find for example traditional keys and locks, conveyor belts, ice, explosives, monsters, switches, mirror directed lasers,
+magnets and much, much more. Thanks to this the game can offer highly various levels.
+
+Krkal 1 was created in 1996 to 1997. It is in Czech language only and today it can be played under [DOSBox](http://www.dosbox.com/). 
    
-Warning: The game is quite difficult in later levels.
-   
+Warning: In later levels the game gets hard!
+
 [Download Krkal 1]({{site.data.constants.krkal1DownloadUrl}}) ([license](/en/download.html))  
-[Source codes on GitHub](https://github.com/HonzaMD/Krkal1)
-
+[Source codes at GitHub](https://github.com/HonzaMD/Krkal1) 
+[Screenshots](/en/k1screenshots.html) 
+[Controls](/en/k1controls.html)
