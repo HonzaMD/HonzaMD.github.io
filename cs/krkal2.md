@@ -32,3 +32,6 @@ Hra Krkal 2 byla vytvořena ve stejnojmenném herním enginu v roce 2004. Engine
 Univerzity Karlovy a byl dále vyvíjen jako diplomová práce tamtéž.
 
 [Zdrojové kódy na GitHubu](https://github.com/HonzaMD/Krkal2)
+[Screenshoty](/cs/k2screenshots.html)  
+[Herní objekty](/cs/k2objects.html)  
+[Ovládání](/cs/k2controls.html)
