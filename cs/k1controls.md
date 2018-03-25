@@ -13,8 +13,8 @@ submenu: krkal1
 * použití miny: X
 * použití jablka: 
   * C - Hemr na chvilku zmizí
-  * C+klávesa směru - Pásovec vystřelí hliněnou střelu
-  * C+klávesa směru - Dráček vystřelí výbušnou střelu
+  * C + klávesa směru - Pásovec vystřelí hliněnou střelu
+  * C + klávesa směru - Dráček vystřelí výbušnou střelu
 * sebrání značky: A
 * položení (otočení) směrové značky: 1+klávesa směru
 * položení zákazu vjezdu: 2
@@ -22,4 +22,6 @@ submenu: krkal1
 * položení konce šedesátky: 4
 * zpět do úvodního menu: Esc
 
-Hráč může sbírat některé předměty. Od každého předmětu může mít maximálně 12 kusů. Většina předmětů se sebere sama, jakmile hráč vstoupí na políčko s předmětem. U těchto předmětů není možné rozhodnout se, jestli je chci nebo ne. Výjimkou jsou značky, ty se sbírají speciální klávesou ‘A’. Sebrané předměty nelze jen tak zahodit. Některé předměty je možné použít speciální klávesou (viz výše). Jiné předměty se použijí samy – např. klíč se použije vždy, když hráč chce vstoupit na políčko, kde je zámek. Tady bych chtěl upozornit na jednu záludnost – pokud hráč má klíč a nějaká síla ho přinutí vjet (např. klouže se po ledu) na políčko se zámkem – tak se zámek vždy odemkne, ať hráč chce nebo ne.
+Hráč může sbírat některé předměty. Od každého předmětu může mít maximálně 12 kusů. Většina předmětů se sebere sama, jakmile hráč vstoupí na políčko s předmětem. U těchto předmětů není možné rozhodnout se, jestli je chci nebo ne. Výjimkou jsou značky, ty se sbírají speciální klávesou ‘A’.
+
+Sebrané předměty nelze jen tak zahodit. Některé předměty je možné použít speciální klávesou (viz výše). Jiné předměty se použijí samy – např. klíč se použije vždy, když hráč chce vstoupit na políčko, kde je zámek. Tady bych chtěl upozornit na jednu záludnost – pokud hráč má klíč a nějaká síla ho přinutí vjet (např. klouže se po ledu) na políčko se zámkem – tak se zámek vždy odemkne, ať hráč chce nebo ne.
