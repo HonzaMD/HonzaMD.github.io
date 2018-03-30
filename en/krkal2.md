@@ -11,7 +11,7 @@ Krkal is a puzzle action game. The player sees character from the bird's eye vie
 The objective of each level is to go through the "maze", while solving all the obstacles and make it to the EXIT.
 The main idea is therefore simple; its implementation however becomes hell in some (almost all advanced) levels.
 
-Games such as <a href="https://en.wikipedia.org/wiki/Robbo_(video_game)">Robbo</a>, [Boulderdash](https://en.wikipedia.org/wiki/Boulder_Dash) (Supaplex), or [Sokoban](https://en.wikipedia.org/wiki/Sokoban) were an inspiration in the making of Krkal, but in the end Krkal found its own path.
+Games such as <a href="https://en.wikipedia.org/wiki/Robbo_(video_game)">Robbo</a>, [Boulder Dash](https://en.wikipedia.org/wiki/Boulder_Dash) (Supaplex), or [Sokoban](https://en.wikipedia.org/wiki/Sokoban) were an inspiration in the making of Krkal, but in the end Krkal found its own path.
 This is mainly thanks to a huge number of various "things", "items", or building blocks, which can be used to build a level.
 In addition the items interact with each other according to complex rules. The ability to build highly VARIABLE levels
 provides the opportunity to encounter a new element in each new level.
