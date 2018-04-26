@@ -15,7 +15,8 @@ submenu: download
 
 # Krkal 2
 
-Chystáme verzi 2.5. Předpokládaný rok vydání: ~~2017~~ 2018.
+Chystáme verzi 2.5. Předpokládaný rok vydání: ~~2017~~ 2018.  
+[Stáhnout Krkala 2 - Release Candidate]({{site.data.constants.krkal2DownloadUrl}})
 
 # Krkal 1
 
