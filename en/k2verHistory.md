@@ -8,7 +8,7 @@ submenu: download
 
 * We celebrate 20 years from finishing the first Krkal.
 * 8 new levels in main game.
-* 9 new levels with hard puzzles.
+* 12 new levels with hard puzzles.
 * Levels must be played sequentially, they are unlocked by completing.
 * Introduced user profiles. Under them the game remembers user's progress, unlocked levels for playing or editing.
 * Changed the main menu of the game.
