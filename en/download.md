@@ -16,7 +16,7 @@ submenu: download
 # Krkal 2
 
 We are preparing version 2.5. Expected year of release: ~~2017~~ 2018.  
-[Download Krkal 2 - Release Candidate]({{site.data.constants.krkal2DownloadUrl}})
+[Download Krkal 2.5 - Release Candidate]({{site.data.constants.krkal2DownloadUrl}})
 
 # Krkal 1
 
