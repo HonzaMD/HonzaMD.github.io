@@ -32,8 +32,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="cs\k1dosbox.md" />
     <None Include="cs\k1controls.md" />
     <None Include="en\k1controls.md" />
+    <None Include="en\k1dosbox.md" />
     <None Include="_config.yml" />
     <None Include="_data\k1screenshots.csv" />
     <None Include="_data\k2screenshots.csv" />
