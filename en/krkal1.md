@@ -19,7 +19,7 @@ Krkal 1 was created in 1996 to 1997. It is in Czech language only and today it c
    
 Warning: In later levels the game gets hard!
 
-[Download Krkal 1]({{site.data.constants.krkal1DownloadUrl}}) ([license](/en/download.html))  
+[Download Krkal 1]({{site.data.constants.krkal1DownloadUrl}}) ([license](/en/download.html)) ([DosBox settings](/en/k1dosbox.html))  
 [Source codes at GitHub](https://github.com/HonzaMD/Krkal1)  
 [Screenshots](/en/k1screenshots.html)  
 [Controls](/en/k1controls.html)

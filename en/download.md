@@ -20,7 +20,7 @@ We are preparing version 2.5. Expected year of release: ~~2017~~ 2018.
 
 # Krkal 1
 
-Game from year 1997. Currently is playable under [DOSBox](http://www.dosbox.com/).  
+Game from year 1997. Currently is playable under [DOSBox](http://www.dosbox.com/) ([settings](/en/k1dosbox.html)).  
 [Download Krkal 1]({{site.data.constants.krkal1DownloadUrl}})
 
 # Krkal 3

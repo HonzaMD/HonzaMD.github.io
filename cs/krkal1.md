@@ -21,7 +21,7 @@ Hra Krkal 1 byla vytvořena v letech 1996 až 1997 a dnes je hratelná pod [DOSB
    
 Varování: Hra je v pozdějších levelech obtížná!
  
-[Stáhnout Krkala 1]({{site.data.constants.krkal1DownloadUrl}}) ([licence](/cs/download.html))  
+[Stáhnout Krkala 1]({{site.data.constants.krkal1DownloadUrl}}) ([licence](/cs/download.html)) ([nastavení DosBoxu](/cs/k1dosbox.html))  
 [Zdrojové kódy na GitHubu](https://github.com/HonzaMD/Krkal1)  
 [Screenshoty](/cs/k1screenshots.html)  
 [Ovládání](/cs/k1controls.html)

@@ -1,21 +1,21 @@
 ---
 layout: mainen
-title: KRKAL 1 Nastavení DosBoxu
+title: KRKAL 1 DosBox Settings
 lang: en
 submenu: krkal1
 ---
-# Nastavení DosBoxu
+# DosBox Settings
 
-Zde uvádím doporučené změny v nastavení [DosBoxu](http://www.dosbox.com/) (verze 0.74).
+Here you can find recommended changes to [DosBox](http://www.dosbox.com/) settings (version 0.74).
 
 output=ddraw  
 aspect=TRUE  
 scaler=normal2x  
 cycles=fixed 10000  
 
-Nastavení *output*, *aspect* a *scaler* umožní zvětšit a správně přeškálovat původní nízké rozlišení 320x200. Také si zvolte, zda chcete hrát v okně či ve fullscreenu, můžete upravit rozlišení.  
-Nejdůležitější je nastavení *cycles*. Aby se Krkal plynule hýbal je potřeba nastavit fixní cykly v rozmezí 10000 až 15000.  
-A nakonec upravte sekci *\[autoexec\]* a přidejte si tam příkaz *mount*. Například:
+Settings *output*, *aspect* and *scaler* allow to properly scale up the original low resolution 320x200. You can also choose between window and fullscreen mode or adjust the screen resolution.  
+The most important is the setting *cycles*. In order for Krkal to move smoothly, it is necessary to set fixed cycles in the range 10000 to 15000.  
+Finally, edit the section *\[autoexec\]* and add there the *mount* command. For example:
 
 mount c d:\dosgames  
 c:
