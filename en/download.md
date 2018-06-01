@@ -15,12 +15,12 @@ submenu: download
 
 # Krkal 2
 
-We are preparing version 2.5. Expected year of release: ~~2017~~ 2018.  
-[Download Krkal 2.5]({{site.data.constants.krkal2DownloadUrl}})
+Game from 2004. To the twentieth anniversary (2018) the game was improved and re-released. [Version history](/en/k2verHistory.html)  
+[Download Krkal 2.5 - 20th anniversary edition]({{site.data.constants.krkal2DownloadUrl}})
 
 # Krkal 1
 
-Game from year 1997. Currently is playable under [DOSBox](http://www.dosbox.com/) ([settings](/en/k1dosbox.html)).  
+Game from 1997. Currently is playable under [DOSBox](http://www.dosbox.com/) ([settings](/en/k1dosbox.html)).  
 [Download Krkal 1]({{site.data.constants.krkal1DownloadUrl}})
 
 # Krkal 3

@@ -25,9 +25,10 @@ Krkal also contains a Levels Editor. Using this editor every player with some ex
 Krkal 2 was created in the game engine of the same name in 2004.
 Engine was created as a project at the Faculty of Mathematics and Physics
 Charles University and was further developed as a diploma thesis at
-the same place.
+the same place.  
+In 2018, on the twentieth anniversary, the game was improved and re-released.
 
-[Download Krkal 2.5]({{site.data.constants.krkal2DownloadUrl}}) ([license](/en/download.html))  
+[Download Krkal 2.5 - 20th anniversary edition]({{site.data.constants.krkal2DownloadUrl}}) ([license](/en/download.html))  
 [Source codes at GitHub](https://github.com/HonzaMD/Krkal2)  
 [Screenshots](/en/k2screenshots.html)  
 [Game Objects](/en/k2objects.html)  

@@ -15,8 +15,8 @@ submenu: download
 
 # Krkal 2
 
-Chystáme verzi 2.5. Předpokládaný rok vydání: ~~2017~~ 2018.  
-[Stáhnout Krkala 2.5]({{site.data.constants.krkal2DownloadUrl}})
+Hra z roku 2004. Ke dvacátému výročí (2018) byla hra vylepšena a znovu-vydána. [Historie změn](/cs/k2verHistory.html)  
+[Stáhnout Krkala 2.5 - 20th anniversary edition]({{site.data.constants.krkal2DownloadUrl}})
 
 # Krkal 1
 
