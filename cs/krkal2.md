@@ -28,7 +28,7 @@ vlastní level. Jak používat editor levelů se dozvíte v dokumentaci k editor
 
 Hra Krkal 2 byla vytvořena ve stejnojmenném herním enginu v roce 2004. Engine vznikl jako projekt na Matematicko-Fyzikální Fakultě
 Univerzity Karlovy a byl dále vyvíjen jako diplomová práce tamtéž.  
-V roce 2018, ke dvacátému výročí byla hra vylepšena a znovu-vydána.
+V roce 2018, ke dvacátému výročí, byla hra vylepšena a znovu-vydána.
 
 [Stáhnout Krkala 2.5 - 20th anniversary edition]({{site.data.constants.krkal2DownloadUrl}}) ([licence](/cs/download.html))  
 [Zdrojové kódy na GitHubu](https://github.com/HonzaMD/Krkal2)  
