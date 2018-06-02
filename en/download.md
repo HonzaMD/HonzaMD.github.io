@@ -16,6 +16,7 @@ submenu: download
 # Krkal 2
 
 Game from 2004. To the twentieth anniversary (2018) the game was improved and re-released. [Version history](/en/k2verHistory.html)  
+Requirements: Windows 10, 8, 7, (xp?); DirectX 8.1 or newer  
 [Download Krkal 2.5 - 20th anniversary edition]({{site.data.constants.krkal2DownloadUrl}})
 
 # Krkal 1

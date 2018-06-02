@@ -16,6 +16,7 @@ submenu: download
 # Krkal 2
 
 Hra z roku 2004. Ke dvacátému výročí (2018) byla hra vylepšena a znovu-vydána. [Historie změn](/cs/k2verHistory.html)  
+Požadavky: Windows 10, 8, 7, (xp?); DirectX 8.1 nebo novější  
 [Stáhnout Krkala 2.5 - 20th anniversary edition]({{site.data.constants.krkal2DownloadUrl}})
 
 # Krkal 1
