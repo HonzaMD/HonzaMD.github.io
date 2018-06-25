@@ -51,6 +51,7 @@
     <None Include="cs\download.md" />
     <Content Include="cs\index.html" />
     <None Include="cs\k2controls.md" />
+    <Content Include="cs\k1objects.html" />
     <Content Include="cs\k2objects.html" />
     <Content Include="cs\k1screenshots.html" />
     <Content Include="cs\k2screenshots.html" />
@@ -63,6 +64,7 @@
     <None Include="en\download.md" />
     <Content Include="en\index.html" />
     <None Include="en\k2controls.md" />
+    <Content Include="en\k1objects.html" />
     <Content Include="en\k2objects.html" />
     <Content Include="en\k1screenshots.html" />
     <Content Include="en\k2screenshots.html" />
@@ -75,6 +77,7 @@
     <Content Include="index.html">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="_includes\ge1.html" />
     <Content Include="_includes\ge2.html" />
     <Content Include="_includes\ge.html" />
     <Content Include="_includes\menuimg.html">

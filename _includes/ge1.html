@@ -1,0 +1,11 @@
+<tr class="gameName" id="{{include.ln}}">
+    <td colspan="2" style="padding:5px;">{{include.name}}</td>
+</tr>
+<tr class="gameDesc">
+  <td style="padding:5px;"><div class="center">
+{% if include.pic != '' %}
+    <img src="/img/hra1/{{include.pic}}" alt="{{include.name}}"/>
+{% endif %}
+  </div></td>
+  <td style="padding:5px;">{{include.desc}}</td>
+</tr>
