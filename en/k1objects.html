@@ -55,7 +55,7 @@ Switches provide a powerful tool to perform modifications in the level. For exam
   {% include ge1.html ln="naslapnapodlaha" name="Floor trigger" desc='The floor trigger is switched on when some heavy object (like a <a href="#kamen">stone</a>) is placed on it. Otherwise, the floor trigger is switched off.' pic="knaslapna.png" %}
   {% include ge1.html ln="prepinac" name="Switch" desc='Only you can set the switch on and off by touching it. The switch usually changes something in the level. After switched back to its original state, the switch either undoes the changes or does nothing ("nonswitching switch" is only for a single use).' pic="kprep.png" %}
   {% include ge1.html ln="fotobunka" name="Photocell" desc='Photocell is switched on when some living creature (you or some <a href="#prisery">monster</a>) gets in the adjacent area (one cell all around). It also reacts on the explosion. When there is no such creature (or explosion) nearby, the photocell is switched off.' pic="kfotobunka.png" %}
-  {% include ge1.html ln="detektor" name="Detektor laseru" desc='xxxxx.' pic="kdetektor.png" %}
+  {% include ge1.html ln="detektor" name="Laser detector" desc='xxxxx.' pic="kdetektor.png" %}
   {% include geend.html %}
 {% include shnaven.html %}
 
@@ -67,7 +67,7 @@ All these objects are destroyable, they can move if some force (like a <a href="
   {% include ge1.html ln="klice" name="Keys" desc='The key can be used to open the <a href="#zamky">lock</a> of the same color. Both the key and the lock are designed for a single use, which means that both the key and the lock will disappear after the lock is unlocked.' pic="kklice.png" %}
   {% include ge1.html ln="bomba" name="Bomb" desc='Once dropped, the bomb is activated and placed right under you. In few seconds, the bomb explodes. The explosion always affects squared area of 3 times 3 cells with the bomb in its center. Explosion destroys every destroyable item in the affected area. Therefore, you should run out from the explosion-affected area as soon as possible. If destroyed, the bomb explodes immediately. This allows an initiation of a chained explosion of the bombs placed in line, one next to other.' pic="kbomba.png" %}
   {% include ge1.html ln="mina" name="Mine" desc='The mine can be either activated or inactive. The activated mine has the top yellow light lit. You can pick up inactive mines. Once dropped, the mine waits few seconds to let you run away. After that, if any living creature (<a href="#manici">you</a> or some <a href="#prisery">monster</a>) or explosion reaches the cell next to the activated mine, the mine explodes after a short delay. It is possible to come next to the activated mine and run back quickly to escape the explosion. However, you cannot run over the activated mine without being killed by the explosion. If destroyed, the mine explodes immediately. The chained explosion occurs even if the activated mines are placed with one free cell between two of them.' pic="kmina.png" %}
-  {% include ge1.html ln="jablko" name="Jablko" desc='xxx.' pic="kjabko.png" %}
+  {% include ge1.html ln="jablko" name="Apple" desc='xxx.' pic="kjabko.png" %}
   {% include ge1.html ln="znacky" name="Traffic sign" desc='The <a href="#pot_dopravni">traffic monsters</a> and the <a href="#pot_klaustr">claustrophobic monsters</a> follow these signs. You can be sure that they do not even think about breaking the traffic rules. If you need some monster to be on certain place, you can simply alter the traffic signs location in the level. You do not pick up the traffic signs unless you hold the key for the traffic signs pickup (which is \'A\' by default). The signs are not attracted to the <a href="#magnet">magnet</a>.
     <ul>
     <li>The monster turns back (by 180°) after getting to no fare sign.</li>
@@ -77,7 +77,7 @@ All these objects are destroyable, they can move if some force (like a <a href="
     <li>After crashing in the obstacle (for example the wall), the monster turns back (by 180°).</li>
     </ul>'
     pic="kznacky.png" %}
-  {% include ge1.html ln="brneni" name="Brnění" desc='xxx.' pic="kbrneni.png" %}
+  {% include ge1.html ln="brneni" name="Armor" desc='xxx.' pic="kbrneni.png" %}
   {% include geend.html %}
 {% include shnaven.html %}
 
@@ -95,9 +95,9 @@ These items can move and you can push them (so you cannot pick them up). They al
 
 <h2 id="predmety">Other items</h2>
   {% include gebegin.html %}
-  {% include ge1.html ln="delo" name="Dělo" desc='xxx.' pic="kdelo.png" %}
+  {% include ge1.html ln="delo" name="Cannon" desc='xxx.' pic="kdelo.png" %}
   {% include ge1.html ln="laser" name="Laser" desc='xxx.' pic="klaser.png" %}
-  {% include ge1.html ln="zrcadlo" name="Zrcadlo" desc='xxxx.' pic="kzrcadlo.png" %}
+  {% include ge1.html ln="zrcadlo" name="Mirror" desc='xxxx.' pic="kzrcadlo.png" %}
   {% include ge1.html ln="magnet" name="Magnet" desc='The magnet generates a magnetic field in the way it is directed. The field is always covering an area of 1*n cells (horizontally or vertically) beginning in magnet and ending in the end of the map or in front of the <a href="#antimagnet">antimagnet</a>. Nothing else can interrupt the magnetic field. All <a href="#veci">objects</a> affected by the magnetism will start moving to the magnet, if the path is free of obstacles. Magnets cause the objects to fall. Falling objects would kill the <a href="#hemr">Slime Guy</a> , the <a href="#dracek">Dragon</a>, all <a href="#prisery">monsters</a> and the <a href="#balonek">balloon</a>. Magnets cannot be destroyed.' pic="kmagnet.png" %}
   {% include ge1.html ln="proud" name="Electrode with high voltage" desc='One electrode generates discharges of electric power in short periods. Each discharge creates a long beam, which stops on the first obstacle in its way. If the obstacle is destroyable, it will be destroyed and the beam will enlarge even more. The beam would kill you, but you can pass through in the short time between two discharges. If there are two electrodes located to discharge one against the other in the same time, the beam will be stabilized. However, you can push some object between the electrodes - they will lose contact, which makes the beam unstable again. Electrodes cannot be destroyed.' pic="kproud.png" %}
   {% include ge1.html ln="teleport" name="Teleport" desc='If you enter the teleport, you are teleported to a different place in the level. Often but not necessarily, this is another teleport. While teleporting, you keep the direction of your very last movement. For example if you enter the teleport from left, you will appear on right to the teleport destination. If there is not empty space, you will be placed on one of two upright places considering the original direction of your movement (this would be up and down from the target in our previous example). If neither this is possible, you will appear on the same side of the target according to the side, from which you entered the teleport. If an obstacle blocks even this place, the teleportation will not start. Teleport can be destroyed in explosion.' pic="ktlport.gif" %}
