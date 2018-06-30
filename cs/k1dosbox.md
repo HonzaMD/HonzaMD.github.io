@@ -4,7 +4,7 @@ title: KRKAL 1 Nastavení DosBoxu
 lang: cs
 submenu: krkal1
 ---
-# Nastavení DosBoxu
+# K1 Nastavení DosBoxu
 
 Zde uvádím doporučené změny v nastavení [DosBoxu](http://www.dosbox.com/) (verze 0.74).
 

@@ -4,7 +4,7 @@ title: KRKAL 1 Ovládání
 lang: cs
 submenu: krkal1
 ---
-# Ovládání hry
+# K1 Ovládání hry
 
 * pohyb postavičky: kurzorové klávesy
   * Postavička se vždy pohybuje pouze horizontálním nebo vertikálním směrem – nikdy ne šikmo.

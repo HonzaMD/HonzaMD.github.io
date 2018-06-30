@@ -4,7 +4,7 @@ title: KRKAL 2 Controls
 lang: en
 submenu: krkal2
 ---
-# Game Controls
+# K2 Game Controls
 
 * character movement: arrow keys 
   * You can move in four basic directions only – you cannot move diagonally.

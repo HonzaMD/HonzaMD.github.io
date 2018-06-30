@@ -4,7 +4,7 @@ title: KRKAL 1 DosBox Settings
 lang: en
 submenu: krkal1
 ---
-# DosBox Settings
+# K1 DosBox Settings
 
 Here you can find recommended changes to [DosBox](http://www.dosbox.com/) settings (version 0.74).
 

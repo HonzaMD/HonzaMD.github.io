@@ -4,7 +4,7 @@ title: KRKAL 1 Controls
 lang: en
 submenu: krkal1
 ---
-# Game Controls
+# K1 Game Controls
 
 * character movement: arrow keys 
   * You can move in four basic directions only – you cannot move diagonally.
