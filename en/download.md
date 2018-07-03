@@ -7,6 +7,7 @@ submenu: download
 # Freeware License
 
 * Program Krkal (all versions) is free to download, and it can be further distributed for free. 
+* When distributing, the setup or archive must not be altered or bundled with unwanted programs (PUP). Krkal 2.5 setup is protected by a digital signature (Jan Krcek), make sure that the signature is valid when installing.
 * You get the complete game free. Program does not contain advertisements, micro-transactions or any unwanted or malicious code.
 * You may use the program, modify the games created within the system, create new levels. 
 * You are using the program at your own risk. We do not assume any responsibility for any damages that arise relative to the use of the program.
