@@ -4,6 +4,11 @@ title: KRKAL Versions History
 lang: en
 submenu: download
 ---
+# News in version 2.5.1
+
+* Updated license text
+* Fix of inconvenience in level Tomy's 2 Ways
+
 # News in version 2.5
 
 * We celebrate 20 years from finishing the first Krkal.

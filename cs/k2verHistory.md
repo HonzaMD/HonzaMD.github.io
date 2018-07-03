@@ -4,6 +4,11 @@ title: KRKAL Historie Změn
 lang: cs
 submenu: download
 ---
+# Novinky ve verzi 2.5.1
+
+* Aktualizován text licence
+* Oprava nepříjemnosti v levelu Tomyho 2 cesty
+
 # Novinky ve verzi 2.5
 
 * Slavíme 20 let od dokončení prvního Krkala.
