@@ -6,10 +6,14 @@ submenu: download
 ---
 # Novinky ve verzi 2.5.1
 
+2018-07-03
+
 * Aktualizován text licence
 * Oprava nepříjemnosti v levelu Tomyho 2 cesty
 
 # Novinky ve verzi 2.5
+
+2018-05-31
 
 * Slavíme 20 let od dokončení prvního Krkala.
 * 8 nových levelů v hlavní hře.
@@ -32,7 +36,15 @@ submenu: download
 * Bugfixing.
 * Plus další drobná vylepšení.
 
+**Krkal 0.9.2**  
+2004-12-03
+
+**Krkal 2.4 en**  
+2004-07-02  
+
 # Novinky ve verzi 2.4
+
+2004-06-12  
 
 * 5 nových levelů.
 * Kernel umí ukládat a nahrávat hru, udělán SavePoint.
@@ -46,6 +58,8 @@ submenu: download
 * Plus další drobná vylepšení.
 
 # Novinky ve verzi 2.3
+
+2004-05-04
 
 * 5 nových levelů.
 * Některé staré levely byly vylepšeny.
@@ -64,3 +78,14 @@ submenu: download
 * Plus další drobná vylepšení.
 * Ale kompilátor je stále nehorázně zabugovaný!!!!! :-(
 
+**Krkal 2.2**  
+2004-03-12  
+
+**Krkal 2**  
+2004-01-09  
+
+**Krkal 0.9.1**  
+2000-07-18
+
+**Krkal 0.9**  
+? 1997
