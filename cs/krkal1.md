@@ -24,4 +24,5 @@ Varování: Hra je v pozdějších levelech obtížná!
 [Stáhnout Krkala 1]({{site.data.constants.krkal1DownloadUrl}}) ([licence](/cs/download.html)) ([nastavení DosBoxu](/cs/k1dosbox.html))  
 [Zdrojové kódy na GitHubu](https://github.com/HonzaMD/Krkal1)  
 [Screenshoty](/cs/k1screenshots.html)  
+[Herní objekty](/cs/k1objects.html)  
 [Ovládání](/cs/k1controls.html)

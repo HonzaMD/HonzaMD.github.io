@@ -33,3 +33,5 @@ In 2018, on the twentieth anniversary, the game was improved and re-released.
 [Screenshots](/en/k2screenshots.html)  
 [Game Objects](/en/k2objects.html)  
 [Controls](/en/k2controls.html)
+
+<img src="/img/icons/SLshot.jpg" style="clear:both;margin-top:15px;" alt="level"/>
