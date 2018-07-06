@@ -26,3 +26,5 @@ Varování: Hra je v pozdějších levelech obtížná!
 [Screenshoty](/cs/k1screenshots.html)  
 [Herní objekty](/cs/k1objects.html)  
 [Ovládání](/cs/k1controls.html)
+
+<img src="/img/galerie/img/K1OsvobodSe2.png" style="clear:both;margin-top:15px;" alt="level"/>

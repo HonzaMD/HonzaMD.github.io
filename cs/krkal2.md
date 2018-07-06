@@ -35,3 +35,5 @@ V roce 2018, ke dvacátému výročí, byla hra vylepšena a znovu-vydána.
 [Screenshoty](/cs/k2screenshots.html)  
 [Herní objekty](/cs/k2objects.html)  
 [Ovládání](/cs/k2controls.html)
+
+<img src="/img/icons/SLshot.jpg" style="clear:both;margin-top:15px;" alt="level"/>

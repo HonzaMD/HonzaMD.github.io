@@ -24,3 +24,5 @@ Warning: In later levels the game gets hard!
 [Screenshots](/en/k1screenshots.html)  
 [Game Objects](/en/k1objects.html)  
 [Controls](/en/k1controls.html)
+
+<img src="/img/galerie/img/K1OsvobodSe2.png" style="clear:both;margin-top:15px;" alt="level"/>
