@@ -293,7 +293,7 @@ tr.gameDesc {background-color:#E1D7CD; text-align:justify;}
 
 .dosbox-start {
     font-size: 35px !important;
-    color: white;
+    color: white !important;
 }
 
 .dosbox-container > .dosbox-overlay {

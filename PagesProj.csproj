@@ -81,6 +81,7 @@
     <Content Include="_includes\ge1.html" />
     <Content Include="_includes\ge2.html" />
     <Content Include="_includes\ge.html" />
+    <Content Include="_includes\dosboxScripts.html" />
     <Content Include="_includes\menuimg.html">
       <SubType>Designer</SubType>
     </Content>

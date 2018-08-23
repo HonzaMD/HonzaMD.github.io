@@ -1,0 +1,12 @@
+<script type="text/javascript" src="https://js-dos.com/cdn/js-dos-api.js"></script>
+<script type="text/javascript">
+    var dosbox = new Dosbox({
+    id: "dosbox",
+    onload: function (dosbox) {
+        dosbox.run("/dl/Krkal1.zip", "./KRKAL.EXE");
+    },
+    onrun: function (dosbox, app) {
+        console.log("App '" + app + "' is runned");
+    }
+    });
+</script>
