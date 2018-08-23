@@ -1,5 +1,11 @@
 [
   {
+    "date": "2018-08-23",
+    "head": "You can play Krkala 1 in browser",
+    "msg": "Thanks to JS-Dos box you can try to play Krkala 1 directly in browser. <a href='/en/krkal1.html'>Here.</a>",
+    "author": "M.D."
+  },
+  {
     "date": "2018-06-01",
     "head": "Krkal 2.5 - 20th anniversary edition is out!",
     "msg": "Finally, we're done! Krkal again runs on modern computers, it contains a number of new levels, including 12 exclusively logical and difficult. There are many improvements and changes that make Krkal a complete game.",
