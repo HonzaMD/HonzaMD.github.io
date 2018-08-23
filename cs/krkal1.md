@@ -27,4 +27,12 @@ Varování: Hra je v pozdějších levelech obtížná!
 [Herní objekty](/cs/k1objects.html)  
 [Ovládání](/cs/k1controls.html)
 
-<img src="/img/galerie/img/K1OsvobodSe2.png" style="clear:both;margin-top:15px;" alt="level"/>
+# Zahraj si v prohlížeči:
+
+<div id="dosbox"></div>
+<button onclick="dosbox.requestFullScreen();" style="font-size:20px;padding:2px 10px;">Přes celou obrazovku</button>
+
+Pokud je hra trhaná, zkuste zrychlit taktování: Ctrl+F12  
+Bohužel v prohlížeči nelze ukládat postup hrou. Jestli se vám hra líbí, pro lepší zážitek si ji stáhněte a zahrajte v plnohodnotném DosBoxu.
+    
+{% include dosboxScripts.html %}
