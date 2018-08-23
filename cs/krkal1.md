@@ -27,7 +27,7 @@ Varování: Hra je v pozdějších levelech obtížná!
 [Herní objekty](/cs/k1objects.html)  
 [Ovládání](/cs/k1controls.html)
 
-# Zahraj si v prohlížeči:
+# Zahrajte si v prohlížeči:
 
 <div id="dosbox"></div>
 <button onclick="dosbox.requestFullScreen();" style="font-size:20px;padding:2px 10px;">Přes celou obrazovku</button>
