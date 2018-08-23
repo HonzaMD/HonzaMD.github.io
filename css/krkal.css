@@ -288,12 +288,12 @@ tr.gameDesc {background-color:#E1D7CD; text-align:justify;}
 .dosbox-container {
     width: 640px;
     height: 480px;
-    clear: both;
     margin-top: 15px;
 }
 
 .dosbox-start {
     font-size: 35px !important;
+    color: white;
 }
 
 .dosbox-container > .dosbox-overlay {

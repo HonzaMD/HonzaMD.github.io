@@ -30,8 +30,7 @@ Varování: Hra je v pozdějších levelech obtížná!
 # Zahraj si v prohlížeči:
 
 <div id="dosbox"></div>
-<br/>
-<button onclick="dosbox.requestFullScreen();">Make fullscreen</button>
+<button onclick="dosbox.requestFullScreen();" style="font-size:20px;padding:2px 10px;">Make fullscreen</button>
     
 <script type="text/javascript" src="https://js-dos.com/cdn/js-dos-api.js"></script>
 <script type="text/javascript">
