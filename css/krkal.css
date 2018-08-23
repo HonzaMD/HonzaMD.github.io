@@ -283,3 +283,19 @@ tr.gameDesc {background-color:#E1D7CD; text-align:justify;}
 	margin-top:30px;
 	margin-bottom:30px;
 }
+
+
+.dosbox-container {
+    width: 640px;
+    height: 480px;
+    clear: both;
+    margin-top: 15px;
+}
+
+.dosbox-start {
+    font-size: 35px !important;
+}
+
+.dosbox-container > .dosbox-overlay {
+    background: url(/img/galerie/img/K1OsvobodSe2.png);
+}
