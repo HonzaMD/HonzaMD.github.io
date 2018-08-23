@@ -31,6 +31,9 @@ Varování: Hra je v pozdějších levelech obtížná!
 
 <div id="dosbox"></div>
 <button onclick="dosbox.requestFullScreen();" style="font-size:20px;padding:2px 10px;">Make fullscreen</button>
+
+Pokud je hra trhaná, zkuste zrychlit taktování: Ctrl+F12  
+Bohužel v prohlížeči nelze ukládat postup hrou. Jestli se vám hra líbí, pro lepší zážitek si ji stáhněte a zahrajte v plnohodnotném DosBoxu.
     
 <script type="text/javascript" src="https://js-dos.com/cdn/js-dos-api.js"></script>
 <script type="text/javascript">
