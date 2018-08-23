@@ -59,7 +59,6 @@
     <None Include="cs\krkal1.md" />
     <None Include="cs\krkal2.md" />
     <None Include="cs\krkal3.md" />
-    <None Include="cs\krkal1run.md" />
     <Content Include="cs\news.html" />
     <None Include="cs\team.md" />
     <None Include="en\download.md" />

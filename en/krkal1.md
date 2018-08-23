@@ -31,6 +31,6 @@ Warning: In later levels the game gets hard!
 <button onclick="dosbox.requestFullScreen();" style="font-size:20px;padding:2px 10px;">Make fullscreen</button>
 
 If the game is sluggish, try speed up cycles: Ctrl+F12  
-Unfortunately it’s not possible to save progress in browser. If you like the game, for better experience try to download it and play it in full-fledged DossBox.
+Unfortunately it's not possible to save progress in browser. If you like the game, for better experience try to download it and play it in full-fledged DossBox.
     
 {% include dosboxScripts.html %}
